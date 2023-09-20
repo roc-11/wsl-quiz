@@ -73,7 +73,7 @@ body {
         position: absolute;
         z-index: 9999;
         background-color: transparent;
-        background: url(assets/images/icon);
+        background: url("../images/icon-hamburger.svg");
         background-repeat: no-repeat;
         border: 0;
         width: 2rem;
@@ -83,7 +83,7 @@ body {
     }
 
     .mobile-nav-toggle[aria-expanded="true"] {
-        background-image: url("assets/images/")
+        background-image: url("../images/icon-close.svg")
     }
 }
 
