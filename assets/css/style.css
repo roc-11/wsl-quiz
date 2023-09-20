@@ -1,10 +1,37 @@
+/* ------------------- */
+/*      General CSS    */
+/* ------------------- */
+
 body {
     background-color: red;
 }
 
-.sr-only {}
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
 
-/* header & navigation */
+.grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    /* added line */
+    border: 0;
+}
+
+/* ------------------- */
+/* Header & Navigation */
+/* ------------------- */
 
 .logo {
     margin: 2rem;
@@ -46,9 +73,9 @@ body {
     margin-inline-end: .75em;
 }
 
-/* media queries
-    ** 
-    ** */
+/* ------------------- */
+/*   Media Queries     */
+/* ------------------- */
 
 /* media queries for nav menu */
 @media (max-width: 35em) {
