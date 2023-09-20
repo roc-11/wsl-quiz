@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: red;
+    background-color: white;
 }
 
 .flex {
@@ -72,6 +72,7 @@ body {
 
 .primary-navigation a {
     text-decoration: none;
+    color: white;
 }
 
 .primary-navigation a>span {
