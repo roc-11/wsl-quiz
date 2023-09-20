@@ -9,6 +9,39 @@
     <title>WSL Quiz</title>
   </head>
   <body>
+    <!-- header -->
+    <header class="primary-header">
+      <div id="nav-wrapper">
+        <!-- logo made on looka.com -->
+        <img id="logo" src="" alt="" />
+      </div>
+
+      <button
+        class="mobile-nav-toggle"
+        maria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <!-- navigation (YouTube Tutorial https://www.youtube.com/watch?v=HbBMp6yUXO0)-->
+      <nav>
+        <ul
+          id="primary-naviagtion"
+          data-visible="false"
+          class="primary-navigation flex"
+        >
+          <li class="active">
+            <a href="index.html"><span aria-hidden="true">00</span>Home </a>
+          </li>
+          <li>
+            <a href="index.html"
+              ><span aria-hidden="true">01</span>Leaderboard
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
