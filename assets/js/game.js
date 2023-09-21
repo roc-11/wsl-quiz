@@ -85,4 +85,22 @@ getNewQuestion = () => {
 
 };
 
+/* Event Listener to check which answer clicked against correct answer */
+choices.forEach((choice) => {
+    choice.addEventListener('click', (e) => {
+        //console.log(e.target);
+
+        //if not ready to answer, ignore click 
+        if (!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset['number'];
+
+        //once answer, get next question
+        getNewQuestion();
+    });
+}
+
 startGame();
