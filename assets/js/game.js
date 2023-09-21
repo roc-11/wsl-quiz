@@ -1,10 +1,12 @@
+/* Quiz Logic adapted from James Q Quick YouTube tutorial vhttps://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3 */
+
 const question = document.getElementById('question');
 // convert choices HTML collection to an array 
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 
 let currentQuestion = {};
 // create a short delay after player answers
-let acceptingAnswers = true;
+let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -50,8 +52,37 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     // get full copy of questions array
-    availableQuesions = [...questions];
+    availableQuestions = [...questions];
     getNewQuestion();
 };
 
-getNewQuestion();
+/**
+ * The main game "loop", called when the script is first loaded
+ * and after the user's answer has been processes
+ */
+getNewQuestion = () => {
+
+    questionCounter++;
+
+    //Populate the question - get a random question from the array
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionIndex];
+    question.innerText = currentQuestion.question;
+
+    //to populate the choices
+    choices.forEach((choice) => {
+        // return number attribute from array
+        const number = choice.dataset['number'];
+        choice.innerText = currentQuestion['choice' + number];
+    });
+
+    //remove the question just used from the array
+    //prevent repetition of questions
+    availableQuestions.splice(questionIndex, 1);
+
+    // after loading question, allow user to answer
+    acceptingAnswers = true;
+
+};
+
+startGame();
