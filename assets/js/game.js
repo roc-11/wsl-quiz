@@ -40,3 +40,18 @@ let questions = [
 //constants 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
+
+/**
+ * The main game "loop", called when the script is first loaded
+ * and after the user's answer has been processes
+ */
+startGame = () => {
+    // ensure score & questionCounter is reset
+    questionCounter = 0;
+    score = 0;
+    // get full copy of questions array
+    availableQuesions = [...questions];
+    getNewQuestion();
+};
+
+getNewQuestion();
