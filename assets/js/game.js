@@ -107,6 +107,6 @@ choices.forEach((choice) => {
         //once answer, get next question
         getNewQuestion();
     });
-}
+});
 
 startGame();
