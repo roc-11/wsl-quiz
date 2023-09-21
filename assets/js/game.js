@@ -62,6 +62,12 @@ startGame = () => {
  */
 getNewQuestion = () => {
 
+    //if no more questions in array, game/quiz is over
+    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        //got to the end page. Quiz Over
+        return window.location.assign('/end.html');
+    }
+
     questionCounter++;
 
     //Populate the question - get a random question from the array
