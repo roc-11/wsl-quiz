@@ -4,6 +4,11 @@ const question = document.getElementById('question');
 // convert choices HTML collection to an array 
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 
+//for the HUD
+const questionCounterText = document.getElementById('question-counter');
+const scoreText = document.getElementById('score');
+
+
 let currentQuestion = {};
 // create a short delay after player answers
 let acceptingAnswers = false;
@@ -69,6 +74,7 @@ getNewQuestion = () => {
     }
 
     questionCounter++;
+    questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
 
     //Populate the question - get a random question from the array
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -108,6 +114,10 @@ choices.forEach((choice) => {
         const classToApply =
             selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
+        if (classToApply === 'correct') {
+            incrementScore(CORRECT_BONUS);
+        }
+
         selectedChoice.parentElement.classList.add(classToApply);
      
         setTimeout(() => {
@@ -118,5 +128,14 @@ choices.forEach((choice) => {
 
     });
 });
+
+/**
+ * The main game "loop", called when the script is first loaded
+ * and after the user's answer has been processes
+ */
+incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+};
 
 startGame();
