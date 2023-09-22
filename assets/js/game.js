@@ -70,6 +70,8 @@ getNewQuestion = () => {
 
     //if no more questions in array, game/quiz is over
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        //store quiz score locally to make available for end screen
+        localStorage.setItem("mostRecentScore", score);
         //got to the end page. Quiz Over
         return window.location.assign('/end.html');
     }
@@ -122,7 +124,7 @@ choices.forEach((choice) => {
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
-     
+
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             //once answer, get next question
