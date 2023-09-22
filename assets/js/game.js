@@ -7,6 +7,7 @@ const choices = Array.from(document.getElementsByClassName('choice-text'));
 //for the HUD
 const progressText = document.getElementById('progress-text');
 const scoreText = document.getElementById('score');
+const progressBarFull = document.getElementById('progress-bar-full');
 
 
 let currentQuestion = {};
@@ -75,6 +76,8 @@ getNewQuestion = () => {
 
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    //update the progress bar (as a %)
+    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
     //Populate the question - get a random question from the array
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
