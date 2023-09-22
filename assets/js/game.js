@@ -5,7 +5,7 @@ const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 
 //for the HUD
-const questionCounterText = document.getElementById('question-counter');
+const progressText = document.getElementById('progress-text');
 const scoreText = document.getElementById('score');
 
 
@@ -74,7 +74,7 @@ getNewQuestion = () => {
     }
 
     questionCounter++;
-    questionCounterText.innerText = `${questionCounter}/${MAX_QUESTIONS}`;
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
 
     //Populate the question - get a random question from the array
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
