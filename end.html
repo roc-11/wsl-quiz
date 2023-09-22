@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>WSL Quiz - Congrats!</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="primary-header">
+      <div id="nav-wrapper">
+        <!-- logo made on looka.com -->
+        <img id="logo" src="" alt="" />
+      </div>
+
+      <button
+        class="mobile-nav-toggle"
+        maria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Menu</span>
+      </button>
+
+      <!-- navigation (YouTube Tutorial https://www.youtube.com/watch?v=HbBMp6yUXO0)-->
+      <nav>
+        <ul
+          id="primary-naviagtion"
+          data-visible="false"
+          class="primary-navigation flex"
+        >
+          <li>
+            <a href="index.html"><span aria-hidden="true">00</span>Home </a>
+          </li>
+          <li>
+            <a href="index.html"
+              ><span aria-hidden="true">01</span>Leaderboard
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- End Page Content -->
+    <div class="container">
+      <div id="end" class="flex-center flex-column">
+        <h1 id="final-score">0</h1>
+        <!-- Form - for user to submit their score -->
+        <form>
+          <input type="text" name="username" placeholder="username" />
+          <button
+            type="submit"
+            class="btn"
+            id="save-score-button"
+            onclick="saveHighScore(event)"
+          >
+            Save
+          </button>
+        </form>
+        <a class="btn" href="/game.html">Play Again</a>
+        <a class="btn" href="/index.html">Home</a>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <a
+        href="https://www.github.com/"
+        target="_blank"
+        rel="noopener"
+        aria-label="Visit our Github page (opens in a new tab)"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com"
+        target="_blank"
+        rel="noopener"
+        aria-label="Visit our LinkedIn page (opens in a new tab)"
+        ><i class="fa-brands fa-linkedin-in"></i
+      ></a>
+    </footer>
+    <!-- font awesome script-->
+    <script
+      src="https://kit.fontawesome.com/5f403ff031.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
