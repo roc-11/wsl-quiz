@@ -17,6 +17,10 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+//for the loading icon
+const loader = document.getElementById('loader');
+const game = document.getElementById('game');
+
 // each quiz question will be an object from the questions array 
 let questions = [
     {
@@ -59,7 +63,12 @@ startGame = () => {
     score = 0;
     // get full copy of questions array
     availableQuestions = [...questions];
+
     getNewQuestion();
+
+    // loader icon before question displayed
+    game.classList.remove('hidden');
+    loader.classList.add('hidden');
 };
 
 /**
