@@ -11,6 +11,10 @@
 
 body {
     background-color: white;
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/background_image.jpg');
+    background-size: cover;
 }
 
 /* utilities */
@@ -102,14 +106,20 @@ body {
 /* Header & Navigation */
 /* ------------------- */
 
-.logo {
-    margin: 2rem;
-
+#logo {
+    /*margin: 2rem;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 15%;*/
+    margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);
 }
 
 .primary-header {
     align-items: center;
     justify-content: space-between;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
 
 .mobile-nav-toggle {
