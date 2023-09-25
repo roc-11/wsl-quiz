@@ -22,12 +22,20 @@ saveHighScore = (e) => {
 
     const score = {
         score: mostRecentScore,
-        name: username.value
+        name: username.value,
     };
     //add new score to the highscore array
     highScores.push(score);
 
     //sort list, check highest, save top 5
-    highScores.sort((a, b) => return b.score - a.score);
+    highScores.sort((a, b) => b.score - a.score);
+
     highScores.splice(5);
+
+    //update the highscores 
+    localStorage.setItem('highScores', JSON.stringify(highScores));
+    //save score and return home once highscore saved
+    window.location.assign('/');
+
+    console.log(highScores);
 };
