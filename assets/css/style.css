@@ -154,8 +154,22 @@ body {
 }
 
 /* ------------------- */
+/*  Landing Page */
+/* ------------------- */
+
+#landing-page {
+    background: rgba(61, 90, 128, 0.9);
+    width: 60%;
+}
+
+/* ------------------- */
 /*  Quiz Gameplay Area */
 /* ------------------- */
+
+#gamePlayArea {
+    background: rgba(61, 90, 128, 0.9);
+    width: 60%;
+}
 
 .choice-container {
     display: flex;
