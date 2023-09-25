@@ -24,29 +24,70 @@ const game = document.getElementById('game');
 // each quiz question will be an object from the questions array 
 let questions = [
     {
-        question: "Question 1?",
-        choice1: "1",
-        choice2: "2",
-        choice3: "3",
+        question: "Who are the current Women's Super League Champions?",
+        choice1: "Chelsea",
+        choice2: "Arsenal",
+        choice3: "Manchester United",
+        choice4: "Aston Villa",
+        answer: 1
+    },
+    {
+        question: "In what year was the WSL established?",
+        choice1: "1999",
+        choice2: "2008",
+        choice3: "2010",
+        choice4: "2012",
+        answer: 3
+    },
+    {
+        question: "Who was the WSL top goalscorer in the 2022/23 season?",
+        choice1: "Sam Kerr",
+        choice2: "Beth Mead",
+        choice3: "Vivianne Miedema",
+        choice4: "Rachel Daly",
+        answer: 4
+    },
+    {
+        question: "How many teams currently compete in the WSL?",
+        choice1: "10",
+        choice2: "12",
+        choice3: "14",
+        choice4: "16",
+        answer: 2
+    },
+    {
+        question: "How many WSL league titles do Chelsea hold?",
+        choice1: "6",
+        choice2: "3",
+        choice3: "1",
         choice4: "4",
         answer: 1
     },
     {
-        question: "Question 2?",
-        choice1: "1",
-        choice2: "2",
-        choice3: "3",
-        choice4: "4",
+        question: "Who holds the record for most WSL appearances?",
+        choice1: "Jill Scott",
+        choice2: "Sophie Ingle",
+        choice3: "Kerys Harrop",
+        choice4: "Steph Houghton",
         answer: 3
     },
     {
-        question: "Question 3?",
-        choice1: "1",
-        choice2: "2",
-        choice3: "3",
-        choice4: "4",
-        answer: 4
+        question: "Who is Arsenal's manager?",
+        choice1: "Jonas Eidevall",
+        choice2: "Emma Hayes",
+        choice3: "Marc Skinner",
+        choice4: "Gareth Keith Taylor",
+        answer: 1
+    },
+    {
+        question: "Who holds the overall record for most WSL goals scored?",
+        choice1: "Bethany England",
+        choice2: "Vivianne Miedema",
+        choice3: "Ellen White",
+        choice4: "Fran Kirby",
+        answer: 2
     }
+
 ];
 
 //constants 
