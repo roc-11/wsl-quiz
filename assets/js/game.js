@@ -92,7 +92,7 @@ let questions = [
 
 //constants 
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = questions.length;
 
 /**
  * The main game "loop", called when the script is first loaded
