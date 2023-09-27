@@ -19,6 +19,7 @@ body {
     background: url('../images/background_image.jpg');
     background-size: cover;
     font-family: 'Roboto', sans-serif;
+    color: #3a3a3a
 }
 
 h1,
@@ -171,16 +172,16 @@ h6 {
 /* ------------------- */
 
 #landing-page {
-    background: rgba(61, 90, 128, 0.9);
+    background: rgba(213, 95, 66, 0.9);
     width: 60%;
-    height: 50%;
+    height: 60%;
     position: relative;
     top: 10%;
 }
 
 #landing-page h1 {
     color: #FAF9F6;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.25rem;
     margin-bottom: 2.5rem;
 }
 
@@ -189,13 +190,37 @@ h6 {
 }
 
 .modal {
-    padding: 1em;
+    padding: 4em;
     max-width: 50ch;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .modal::backdrop {
-    background: linear-gradient(45deg, orange, rgb(86, 165, 235));
+    background: linear-gradient(45deg, #ee6c4d, rgb(86, 165, 235));
     opacity: 0.4;
+}
+
+.modal h2 {
+    padding-bottom: 5%;
+}
+
+.modal li {
+    padding-left: 1ch;
+    font-size: 1.3rem;
+    padding-bottom: 2ch;
+}
+
+.modal li::marker {
+    content: '=>';
+    color: #d55f42;
+}
+
+.close-modal {
+    background-color: #3d5a80;
+    color: white;
 }
 
 /* ------------------- */
@@ -322,7 +347,7 @@ input::placeholder {
 /* ------------------- */
 
 #leaderboardArea {
-    background: rgba(61, 90, 128, 0.9);
+    background: rgba(213, 95, 66, 0.9);
     width: 60%;
     height: 50%;
     position: relative;
