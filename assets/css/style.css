@@ -193,8 +193,8 @@ h6 {
 /* ------------------- */
 
 #gamePlayArea {
-    background: rgba(61, 90, 128, 0.9);
-    width: 60%;
+    background: rgb(61, 90, 128);
+    width: 80%;
 }
 
 .choice-container {
@@ -250,6 +250,7 @@ h6 {
 #progress-bar {
     width: 20rem;
     height: 4rem;
+    background-color: #FAF9F6;
     border: 0.3rem solid #56a5eb;
     margin-top: 1.5rem;
 }
@@ -324,6 +325,13 @@ input::placeholder {
     margin-bottom: 2.5rem;
 }
 
+#highScoresContainer {
+    background-color: #FAF9F6;
+    width: 80%;
+    margin-bottom: 2rem;
+
+}
+
 #highScoresList {
     list-style: none;
     padding-left: 0;
@@ -331,7 +339,7 @@ input::placeholder {
 }
 
 .high-score {
-    font-size: 2.8rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
@@ -398,6 +406,7 @@ footer>a {
         position: absolute;
         z-index: 9999;
         background-color: transparent;
+        /* Convert SVG color https: //codepen.io/sosuke/pen/Pjoqqp */
         filter: invert(6%) sepia(7%) saturate(2430%) hue-rotate(179deg) brightness(99%) contrast(95%);
         background: url("../images/icon-hamburger.svg");
         background-repeat: no-repeat;
