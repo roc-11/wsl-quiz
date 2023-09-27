@@ -418,6 +418,11 @@ footer>a {
         /* remove numbers on nav links */
         display: none;
     }
+
+    #logo {
+        height: 40%;
+        width: 40%;
+    }
 }
 
 /* for ?? size */
@@ -428,5 +433,42 @@ footer>a {
         /* only top and bottom padding */
         padding-block: 0.5rem;
         padding-inline: clamp(3rem, 8vw, 10rem);
+    }
+}
+
+/* Media queries for the rest of the site */
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {}
+
+/* For medium screen sizes from 800px wide and down */
+
+@media screen and (max-width: 800px) {
+
+    #landing-page {
+        width: 80%;
+    }
+
+    #landing-page h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* For Small screen sizes from 580px wide and down */
+@media screen and (max-width: 580px) {
+    #landing-page {
+        width: 100%;
+    }
+
+    #landing-page h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* For extra small screen sizes from 360px wide and down */
+@media screen and (max-width: 360px) {
+    #landing-page a {
+        position: relative;
+        width: 90%;
     }
 }
