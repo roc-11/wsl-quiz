@@ -272,6 +272,10 @@ h6 {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
 }
 
 .hud-prefix {
