@@ -398,6 +398,7 @@ footer>a {
         position: absolute;
         z-index: 9999;
         background-color: transparent;
+        filter: invert(6%) sepia(7%) saturate(2430%) hue-rotate(179deg) brightness(99%) contrast(95%);
         background: url("../images/icon-hamburger.svg");
         background-repeat: no-repeat;
         border: 0;
