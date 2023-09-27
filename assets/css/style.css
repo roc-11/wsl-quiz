@@ -96,11 +96,12 @@ h6 {
     padding: 1rem 0;
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #56a5eb;
+    border: 0.1rem solid #3D5A80;
     margin-bottom: 1rem;
     text-decoration: none;
-    color: #56a5eb;
+    color: #3D5A80;
     background-color: white;
+    font-weight: 500;
 }
 
 .btn:hover {
@@ -172,6 +173,19 @@ h6 {
 #landing-page {
     background: rgba(61, 90, 128, 0.9);
     width: 60%;
+    height: 50%;
+    position: relative;
+    top: 10%;
+}
+
+#landing-page h1 {
+    color: #FAF9F6;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2.5rem;
+}
+
+#landing-page a {
+    margin-bottom: 2.5rem;
 }
 
 /* ------------------- */
