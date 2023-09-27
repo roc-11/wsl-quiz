@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
 /* ------------------- */
 /*      General CSS    */
 /* ------------------- */
@@ -15,6 +18,17 @@ body {
     height: 100vh;
     background: url('../images/background_image.jpg');
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 700;
 }
 
 /* utilities */
@@ -107,11 +121,6 @@ body {
 /* ------------------- */
 
 #logo {
-    /*margin: 2rem;
-    float: left;
-    margin-left: 30px;
-    margin-top: 10px;
-    width: 15%;*/
     margin: 1.5rem clamp(1.5rem, 5vw, 3.5rem);
     height: 30%;
     width: 30%;
@@ -122,6 +131,7 @@ body {
     justify-content: space-between;
     letter-spacing: 4px;
     text-transform: uppercase;
+    font-family: 'Palanquin Dark', sans-serif;
 }
 
 .mobile-nav-toggle {
