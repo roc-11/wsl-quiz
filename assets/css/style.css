@@ -167,7 +167,7 @@ h6 {
 }
 
 /* ------------------- */
-/*  Landing Page */
+/*     Landing Page    */
 /* ------------------- */
 
 #landing-page {
@@ -282,7 +282,10 @@ h6 {
     }
 }
 
-/* quiz complete - end screen */
+/* --------------------------- */
+/*  quiz complete - end screen */
+/* --------------------------- */
+
 form {
     width: 100%;
     display: flex;
@@ -303,7 +306,24 @@ input::placeholder {
     color: #aaa;
 }
 
-/* Leaderboard Area */
+/* ------------------- */
+/*  Leaderboard Area   */
+/* ------------------- */
+
+#leaderboardArea {
+    background: rgba(61, 90, 128, 0.9);
+    width: 60%;
+    height: 50%;
+    position: relative;
+    top: 10%;
+}
+
+#leaderboardArea h1 {
+    color: #FAF9F6;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2.5rem;
+}
+
 #highScoresList {
     list-style: none;
     padding-left: 0;
