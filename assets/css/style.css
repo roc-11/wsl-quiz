@@ -250,7 +250,7 @@ h6 {
 #progress-bar {
     width: 20rem;
     height: 4rem;
-    background-color: #FAF9F6;
+    background-color: white;
     border: 0.3rem solid #56a5eb;
     margin-top: 1.5rem;
 }
