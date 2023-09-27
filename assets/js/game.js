@@ -86,6 +86,22 @@ let questions = [
         choice3: "Ellen White",
         choice4: "Fran Kirby",
         answer: 2
+    },
+    {
+        question: "Which of these teams won the FA WSL 2013 title?",
+        choice1: "Tottenham",
+        choice2: "Chelsea",
+        choice3: "Arsenal",
+        choice4: "Liverpool",
+        answer: 4
+    },
+    {
+        question: "Which of these four players is the oldest to register an FA WSL appearance?",
+        choice1: "Becky Easton",
+        choice2: "Fara Williams",
+        choice3: "Jill Scott",
+        choice4: "Natasha Harding",
+        answer: 1
     }
 
 ];
