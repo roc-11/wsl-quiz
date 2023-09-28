@@ -146,6 +146,7 @@ getNewQuestion = () => {
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     //update the progress bar (as a %)
     progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+    progressBarFull.innerHTML = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
     //Populate the question - get a random question from the array
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);

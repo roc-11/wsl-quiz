@@ -296,15 +296,17 @@ h6 {
 #progress-bar {
     width: 20rem;
     height: 4rem;
-    background-color: white;
+    background-color: #ddd;
     border: 0.3rem solid #56a5eb;
     margin-top: 1.5rem;
+    text-align: center;
 }
 
 #progress-bar-full {
     height: 3.5rem;
     background-color: #56a5eb;
     width: 0%;
+    text-align: center;
 }
 
 /* Quiz loader https://www.w3schools.com/howto/howto_css_loader.asp */
