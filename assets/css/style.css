@@ -355,6 +355,12 @@ input::placeholder {
     color: #aaa;
 }
 
+#saveScoreBtn {
+    border: 0.1rem solid white;
+    background-color: #3D5A80;
+    color: white;
+}
+
 /* ------------------- */
 /*  Leaderboard Area   */
 /* ------------------- */
