@@ -393,6 +393,12 @@ input::placeholder {
     transform: scale(1.025);
 }
 
+#play-btn {
+    border: 0.1rem solid white;
+    background-color: #3D5A80;
+    color: white;
+}
+
 /* ------------------- */
 /*      footer         */
 /* ------------------- */
