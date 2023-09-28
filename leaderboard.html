@@ -7,7 +7,11 @@
 
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>WSL Quiz - Leaderboard</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon-wsl-quiz.png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/favicon-wsl-quiz.png"
+    />
   </head>
   <body>
     <!-- header -->
@@ -48,16 +52,28 @@
       </nav>
     </header>
 
-    <!-- Leaderboard Area - To Display High Scores -->
+    <!-- Leaderboard Area - To Display High Scores 
     <div class="container" id="leaderboardArea">
       <div id="leaderBoardScores" class="flex-center flex-column leaderboard">
         <h1 id="finalScore">Leaderboard</h1>
         <div id="highScoresContainer">
-          <ol id="highScoresList"></ol>
+          <ol id="highScoresList"></ol> 
         </div>
-        <a class="btn" id="play-btn" href="game.html">Play</a>
+</div>
+</div>-->
+    <!-- https://codepen.io/MalunariDev/pen/RweGGxx -->
+    <main>
+      <div id="header">
+        <h1>Leaderboard</h1>
       </div>
-    </div>
+      <div id="leaderboard">
+        <div class="ribbon"></div>
+        <table id="highScoresList"></table>
+        <div id="buttons">
+          <a class="btn" id="play-btn" href="game.html">Play</a>
+        </div>
+      </div>
+    </main>
 
     <!-- footer -->
     <footer>

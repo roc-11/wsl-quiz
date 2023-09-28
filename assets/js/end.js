@@ -15,7 +15,6 @@ username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
 });
 
-
 saveHighScore = (e) => {
     //prevent posting to a different page
     e.preventDefault();
