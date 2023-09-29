@@ -21,6 +21,14 @@ let availableQuestions = [];
 const loader = document.getElementById('loader');
 const game = document.getElementById('game');
 
+//for the sound 
+const correctSound = new Audio('assets/audio/correct-answer.mp3');
+const inCorrectSound = new Audio('assets/audio/wrong-answer.mp3');
+const allSounds = [
+    correctSound, inCorrectSound
+];
+
+
 // each quiz question will be an object from the questions array 
 let questions = [
     {
@@ -190,6 +198,9 @@ choices.forEach((choice) => {
 
         if (classToApply === 'correct') {
             incrementScore(CORRECT_BONUS);
+            correctSound.play();
+        } else {
+            inCorrectSound.play();
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
