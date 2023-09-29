@@ -143,10 +143,12 @@ getNewQuestion = () => {
     }
 
     questionCounter++;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    //progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     //update the progress bar (as a %)
-    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
-    progressBarFull.innerHTML = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+    //progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+    //progressBarFull.innerHTML = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+
+    setTimeout(loadingProgressBar, 800);
 
     //Populate the question - get a random question from the array
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -211,3 +213,35 @@ incrementScore = num => {
 };
 
 startGame();
+
+/**
+ * Lollipop loading progress bar
+ * https://codepen.io/dbilanoski/pen/NZmOJR
+ */
+
+function loadingProgressBar() {
+    document.querySelectorAll(".bar").forEach(function (current) {
+        let startWidth = 0;
+        const endWidth = current.dataset.size;
+
+        //progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+        //progressBarFull.innerHTML = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+        /* 
+        setInterval() time sholud be set as trasition time / 100. 
+        In our case, 2 seconds / 100 = 20 milliseconds. 
+        */
+        const interval = setInterval(frame, 20);
+
+        function frame() {
+            if (startWidth >= endWidth) {
+                clearInterval(interval);
+            } else {
+                startWidth++;
+                current.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+                current.firstElementChild.innerText = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+            }
+        }
+    });
+}
+
+//setTimeout(loadingProgressBar, 1000);

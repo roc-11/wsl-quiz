@@ -7,7 +7,11 @@
 
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>WSL Quiz -Play</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon-wsl-quiz.png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/favicon-wsl-quiz.png"
+    />
   </head>
   <body>
     <!-- header -->
@@ -53,9 +57,18 @@
           <div id="hud">
             <div id="hud-item">
               <p id="progress-text" class="hud-prefix">Question</p>
+              <!-- new progress lollipop bar https://codepen.io/dbilanoski/pen/NZmOJR-->
               <div id="progress-bar">
-                <div id="progress-bar-full"></div>
+                <div class="progress-bar-lollipop">
+                  <div class="bar" data-size="100">
+                    <span class="perc"></span>
+                  </div>
+                </div>
               </div>
+              <!-- old progress bar 
+                <div id="progress-bar">
+                <div id="progress-bar-full"></div>
+              </div> -->
               <!-- <h1 class="hud-main-text" id="question-counter"></h1> -->
             </div>
             <div id="hud-item">
