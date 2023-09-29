@@ -22,8 +22,8 @@ const loader = document.getElementById('loader');
 const game = document.getElementById('game');
 
 //for the sound 
-const correctSound = new Audio('../assets/audio/correct-answer.mp3');
-const inCorrectSound = new Audio('../assets/audio/wrong-answer.mp3');
+const correctSound = new Audio('../audio/correct-answer.mp3');
+const inCorrectSound = new Audio('../audio/wrong-answer.mp3');
 const allSounds = [
     correctSound, inCorrectSound
 ];
@@ -147,7 +147,7 @@ getNewQuestion = () => {
         //store quiz score locally to make available for end screen
         localStorage.setItem("mostRecentScore", score);
         //got to the end page. Quiz Over
-        return window.location.assign('end.html');
+        return window.location.assign('../../end.html');
     }
 
     questionCounter++;

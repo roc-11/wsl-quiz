@@ -6,11 +6,11 @@ let rankingList = highScores.length;
 console.log(highScores);
 
 //for the sound 
-const playQuizSound = new Audio('assets/audio/whistle-sound.mp3');
+const playQuizSound = new Audio('../audio/whistle-sound.mp3');
 const playButton = document.getElementById('play-btn');
 function PlaySound() {
     playQuizSound.play();
-    setTimeout(function () { location.href = 'game.html'; }, playQuizSound.duration * 80);
+    setTimeout(function () { location.href = '../../game.html'; }, playQuizSound.duration * 80);
 }
 
 //Provide user with feedback if there are no high scores yet
