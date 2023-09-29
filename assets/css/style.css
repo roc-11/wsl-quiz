@@ -672,6 +672,7 @@ tr:nth-child(odd) {
 
 tr:nth-child(1) {
     color: #fff;
+    background-color: inherit;
 }
 
 td {

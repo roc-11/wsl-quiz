@@ -39,7 +39,7 @@ if (highScores.length === 0) {
                     </tr>`;
     }).join("");
 
-    /*let firstRow = highScoresList.rows[0];
-    firstRow.classList.remove("hover");
-    firstRow.classList.add("firstRowHover"); */
+    // let firstRow = highScoresList.rows[0];
+    // firstRow.classList.remove("hover");
+    // firstRow.classList.add("firstRowHover"); 
 }
