@@ -29,7 +29,7 @@ closeModal.addEventListener('click', () => {
 });
 
 //for the sound 
-const playQuizSound = new Audio('assets/audio/whistle-sound.mp3');
+const playQuizSound = new Audio('../assets/audio/whistle-sound.mp3');
 const playButton = document.getElementById('play-btn');
 function PlaySoundWhistle() {
     playQuizSound.play();

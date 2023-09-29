@@ -22,8 +22,8 @@ const loader = document.getElementById('loader');
 const game = document.getElementById('game');
 
 //for the sound 
-const correctSound = new Audio('assets/audio/correct-answer.mp3');
-const inCorrectSound = new Audio('assets/audio/wrong-answer.mp3');
+const correctSound = new Audio('../assets/audio/correct-answer.mp3');
+const inCorrectSound = new Audio('../assets/audio/wrong-answer.mp3');
 const allSounds = [
     correctSound, inCorrectSound
 ];
