@@ -21,7 +21,7 @@ if (highScores.length === 0) {
     highScoresList.innerHTML = highScores.map(score => {
         //return `<li class="high-score">${score.name}: ${score.score}</li>`;
         return `<tr class="high-score">
-                    <td class='number'>'to do'</td>
+                    <td class='number'><img class="trophy-svg" src="assets/images/trophy-svg.svg"></td>
                     <td class='name'>${score.name}</td>
                     <td class='point'>${score.score}</td> 
                     </tr>`;
