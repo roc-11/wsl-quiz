@@ -169,6 +169,22 @@ h6 {
     margin-inline-end: .75em;
 }
 
+#mute-button {
+    font-size: 1.1rem;
+    margin: 0px;
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+}
+
+#mute-button:hover {
+    background-color: #ee6c4d;
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(213, 95, 66, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
 /* ------------------- */
 /*     Landing Page    */
 /* ------------------- */
