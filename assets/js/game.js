@@ -147,7 +147,7 @@ getNewQuestion = () => {
         //store quiz score locally to make available for end screen
         localStorage.setItem("mostRecentScore", score);
         //got to the end page. Quiz Over
-        return window.location.href('end.html');
+        return window.location.href = 'end.html';
     }
 
     questionCounter++;

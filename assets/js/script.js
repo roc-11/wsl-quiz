@@ -30,6 +30,7 @@ closeModal.addEventListener('click', () => {
 
 //for the sound 
 const playQuizSound = new Audio('assets/audio/whistle-sound.mp3');
+const playButtonSound = new Audio('assets/audio/button-sound.mp3');
 const playButton = document.getElementById('play-btn');
 function PlaySoundWhistle() {
     playQuizSound.play();
@@ -37,5 +38,3 @@ function PlaySoundWhistle() {
         window.location.href = 'game.html';
     }, playQuizSound.duration * 80);
 }
-
-console.log("Page location is " + window.location.href);
