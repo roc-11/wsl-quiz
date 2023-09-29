@@ -40,7 +40,7 @@ saveHighScore = (e) => {
 };
 
 //for the sound 
-const playAgainQuizSound = new Audio('../audio/whistle-sound.mp3');
+const playAgainQuizSound = new Audio('assets/audio/whistle-sound.mp3');
 const playAgain = document.getElementById('playAgain');
 function PlayAgainSound() {
     playAgainQuizSound.play();
