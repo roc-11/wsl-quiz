@@ -599,6 +599,33 @@ footer>a {
     #progress-bar {
         width: 10rem;
     }
+
+    #score {
+        font-size: 1.8rem;
+    }
+
+    #gamePlayArea {
+        width: 100%;
+        height: 72%;
+    }
+
+    #subContainer {
+        height: 100%;
+        position: relative;
+        padding: 1rem;
+    }
+
+    #question {
+        font-size: 1rem;
+        text-align: left;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .choice-container {
+        font-size: 1rem;
+        min-height: 9vh;
+    }
 }
 
 /* For extra small screen sizes from 360px wide and down */
