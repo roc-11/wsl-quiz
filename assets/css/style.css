@@ -668,6 +668,12 @@ td {
     font-size: 1.2rem;
 }
 
+.noHighScores {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .point {
     text-align: center;
 }
