@@ -139,7 +139,7 @@ getNewQuestion = () => {
         //store quiz score locally to make available for end screen
         localStorage.setItem("mostRecentScore", score);
         //got to the end page. Quiz Over
-        return window.location.assign('end.html');
+        return window.location.assign('../end.html');
     }
 
     questionCounter++;
