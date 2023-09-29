@@ -143,7 +143,7 @@ getNewQuestion = () => {
     }
 
     questionCounter++;
-    //progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     //update the progress bar (as a %)
     //progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
     //progressBarFull.innerHTML = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
@@ -237,8 +237,8 @@ function loadingProgressBar() {
                 clearInterval(interval);
             } else {
                 startWidth++;
-                current.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
-                current.firstElementChild.innerText = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+                current.style.width = `${((questionCounter - 1) / MAX_QUESTIONS) * 100}%`;
+                current.firstElementChild.innerText = `${((questionCounter - 1) / MAX_QUESTIONS) * 100}%`;
             }
         }
     });
