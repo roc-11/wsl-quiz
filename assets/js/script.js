@@ -27,3 +27,11 @@ openModal.addEventListener('click', () => {
 closeModal.addEventListener('click', () => {
     modal.close();
 });
+
+//for the sound 
+const playQuizSound = new Audio('assets/audio/whistle-sound.mp3');
+const playButton = document.getElementById('play-btn');
+function PlaySoundWhistle() {
+    playQuizSound.play();
+    setTimeout(function () { location.href = 'game.html'; }, playQuizSound.duration * 80);
+}
