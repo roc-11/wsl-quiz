@@ -128,10 +128,12 @@ https: //codepen.io/mortezasharifinia/pen/QWxmEWW */
     position: relative;
     padding: 16px 30px;
     font-size: 1.5rem;
-    color: #1e9bff;;
+    color: #1e9bff;
+    ;
     border: 2px solid rgba(0, 0, 0, 0.5);
     border-radius: 4px;
-    text-shadow: 0 0 15px #1e9bff;;
+    text-shadow: 0 0 15px #1e9bff;
+    ;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -331,16 +333,13 @@ https: //codepen.io/mortezasharifinia/pen/QWxmEWW */
     border-radius: 5px;
     text-align: center;
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     -webkit-box-shadow: 0px 5px 15px 8px #e4e7fb;
     box-shadow: 0px 5px 15px 8px #e4e7fb;
     height: 13%;
 }
 
 #main-title {
-    padding-bottom: 10px;
-    margin: 30px;
-    padding: 5px;
     color: white;
 }
 
@@ -714,8 +713,16 @@ footer>a {
         width: 80%;
     }
 
-    #landing-page h1 {
-        font-size: 1.8rem;
+    #page-title {
+        width: 80%;
+    }
+
+    #main-title {
+        font-size: 2rem;
+    }
+
+    #landing-page h2 {
+        font-size: 1.5rem;
     }
 
     #hud {
@@ -733,8 +740,20 @@ footer>a {
         width: 100%;
     }
 
-    #landing-page h1 {
+    #page-title {
+        width: 100%;
+    }
+
+    #main-title {
         font-size: 1.5rem;
+        padding-left: 1rem;
+        text-align: left;
+    }
+
+    #landing-page h2 {
+        font-size: 1rem;
+        text-align: left;
+        margin-bottom: 1rem;
     }
 
     #hud {
@@ -778,6 +797,16 @@ footer>a {
     #landing-page a {
         position: relative;
         width: 90%;
+    }
+
+    #main-title {
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        text-align: left;
+    }
+
+    #landing-page h2 {
+        display: none;
     }
 }
 
