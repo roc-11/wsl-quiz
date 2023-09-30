@@ -713,6 +713,10 @@ footer>a {
         width: 80%;
     }
 
+    #landing-page a {
+        margin-bottom: 1.5rem;
+    }
+
     #page-title {
         width: 80%;
     }
@@ -747,12 +751,12 @@ footer>a {
     #main-title {
         font-size: 1.5rem;
         padding-left: 1rem;
-        text-align: left;
+        /*text-align: left;*/
     }
 
     #landing-page h2 {
         font-size: 1rem;
-        text-align: left;
+        /*text-align: left;*/
         margin-bottom: 1rem;
     }
 
@@ -807,6 +811,38 @@ footer>a {
 
     #landing-page h2 {
         display: none;
+    }
+}
+
+/* Exact height */
+@media screen and (max-height: 600px) {
+
+    #landing-page {
+        height: 50%;
+    }
+
+    #landing-page a {
+        margin-bottom: 1rem;
+    }
+
+    #landing-page .btn {
+        font-size: 1rem;
+    }
+}
+
+/* Exact height */
+@media screen and (max-height: 500px) {
+
+    #landing-page {
+        height: 40%;
+    }
+
+    #landing-page a {
+        margin-bottom: 0.7rem;
+    }
+
+    #landing-page .btn {
+        font-size: 0.7rem;
     }
 }
 
