@@ -75,11 +75,6 @@ h6 {
     display: none;
 }
 
-.grid {
-    display: grid;
-    gap: var(--gap, 1rem);
-}
-
 .sr-only {
     position: absolute;
     width: 1px;
@@ -994,14 +989,18 @@ footer>a {
     #subContainer {
         height: 100%;
         position: relative;
-        padding: 0 1rem 0 1rem;
+        padding: 1rem;
+    }
+
+    .choice-prefix {
+        padding: 2.5rem 1rem;
     }
 
     #question {
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: left;
         margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1.2rem;
     }
 
     .choice-container {
@@ -1017,10 +1016,23 @@ footer>a {
         height: 2rem;
     }
 
+    /* make questions 2 col grid for phone screens */
+    .grid-1 {
+        display: grid;
+        column-gap: 3rem;
+        row-gap: 4.3rem;
+    }
+
+    .container-two-cols {
+        /* make two columns for each therapist's information */
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 /* For extra small screen sizes from 360px wide and down */
 @media screen and (max-width: 360px) {
+
     #landing-page a {
         position: relative;
         width: 90%;
