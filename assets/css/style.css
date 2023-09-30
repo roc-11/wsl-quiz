@@ -199,7 +199,23 @@ h6 {
     top: 10%;
 }
 
-#landing-page h1 {
+#page-title,
+.main-title {
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 30px;
+    padding: 5px;
+    color: white;
+}
+
+.page-title {
+    background-color: hsl(218.2 23.4% 9.2% / 0.8);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#landing-page h2 {
     color: #FAF9F6;
     letter-spacing: 0.25rem;
     margin-bottom: 2.5rem;
