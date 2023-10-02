@@ -15,7 +15,9 @@
 body {
     background-color: white;
     width: 100vw;
-    height: 1500px;
+    /*height: 1500px;
+    height: 100vh
+    */
     max-height: 1600px;
     background: url('../images/background_image.jpg');
     background-size: cover;
@@ -747,6 +749,34 @@ footer>a {
     text-decoration: none;
     padding: 0 15px;
     font-size: 1.5rem;
+}
+
+/* ------------------- */
+/*   Error Pages       */
+/* ------------------- */
+
+#error-container {
+    background: rgba(213, 95, 66, 0.9);
+    -webkit-box-shadow: 0px 5px 15px 8px #e4e7fb;
+    box-shadow: 0px 5px 15px 8px #e4e7fb;
+    width: 80%;
+    position: relative;
+    top: 3%;
+}
+
+#error {
+    height: 100vh;
+}
+
+#error-btn {
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.error-msg {
+    color: #f7f9fb;
+    margin-top: 1rem;
+    text-transform: uppercase;
 }
 
 /* ------------------- */
