@@ -15,7 +15,7 @@
 body {
     background-color: white;
     width: 100vw;
-    height: 100vh;
+    /*height: 100vh;*/
     background: url('../images/background_image.jpg');
     background-size: cover;
     font-family: 'Roboto', sans-serif;
@@ -396,6 +396,18 @@ https: //codepen.io/mortezasharifinia/pen/QWxmEWW */
 #subContainer {
     padding: 2rem;
 
+}
+
+/* make questions 2 col grid for phone screens */
+.grid-1 {
+    display: grid;
+    column-gap: 3rem;
+    row-gap: 4.3rem;
+}
+
+.container-two-cols {
+    /* make two columns for each therapist's information */
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .choice-container {
@@ -1049,7 +1061,7 @@ footer>a {
     }
 }
 
-/* Exact height */
+/* Exact height 
 @media screen and (max-height: 700px) {
     #mainLeaderboard {
         height: 30rem;
@@ -1057,7 +1069,7 @@ footer>a {
 
 }
 
-/* Exact height */
+/* Exact height 
 @media screen and (max-height: 600px) {
 
     #landing-page {
@@ -1074,7 +1086,7 @@ footer>a {
 
 }
 
-/* Exact height */
+/* Exact height 
 @media screen and (max-height: 500px) {
 
     #landing-page {
@@ -1089,3 +1101,4 @@ footer>a {
         font-size: 0.7rem;
     }
 }
+*/
