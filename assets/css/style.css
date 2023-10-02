@@ -36,6 +36,10 @@ h6 {
     text-align: center;
 }
 
+.fas {
+    font-size: 1.2rem;
+}
+
 /* utilities */
 
 .flex {
@@ -102,14 +106,14 @@ h6 {
     color: #3D5A80;
     background-color: white;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
-    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1.4rem 0 rgba(86, 185, 235, 0.8);
+    transform: translateY(-0.2rem);
     transition: transform 150ms;
 }
 
@@ -863,11 +867,12 @@ td {
     }
 
     #endContainer .btn {
-        width:60%;
+        width: 60%;
     }
-        #endContainer input {
-            width: 60%;
-        }
+
+    #endContainer input {
+        width: 60%;
+    }
 
     #page-title {
         width: 100%;
