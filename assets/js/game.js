@@ -24,10 +24,6 @@ const game = document.getElementById('game');
 //for the sound 
 const correctSound = new Audio('assets/audio/correct-answer.mp3');
 const inCorrectSound = new Audio('assets/audio/wrong-answer.mp3');
-const allSounds = [
-    correctSound, inCorrectSound
-];
-
 
 // each quiz question will be an object from the questions array 
 let questions = [
