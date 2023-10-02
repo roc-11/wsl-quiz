@@ -15,7 +15,7 @@ const allSounds = [
 document.addEventListener("DOMContentLoaded", function () {
     //check if user has visited before (if there's a value in mutedState)
     if (!muteState || muteState !== 'true') {
-        isMuted = false;
+        isMuted = true;
         muteState = localStorage.setItem('muteState', isMuted);
         muteButton.innerHTML = '<i class="fa-solid fa-volume-xmark"></i>';
         console.log("Muted state is" + mutedState);

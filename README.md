@@ -1,39 +1,156 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Women's Super League (WSL) Quiz
 
-Welcome,
+## Developer: Róisín O'Connell 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![WSL Quiz Mockup Images](assets/readme-files/)
+[View the live project here](https://roc-11.github.io/wsl-quiz/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Table of Contents
 
-## Codeanywhere Reminders
+***
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Introduction
 
-`python3 -m http.server`
+## Aim
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Business Goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### User Goals
 
-`http_server`
+[Back to top ⇧](#)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## UX
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Ideal User Demographic
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The ideal user for this website is:
 
-To log into the Heroku toolbelt CLI:
+* Current user
+* New user
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### User-Stories
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Current User Goals
 
----
+#### New User Goals
 
-Happy coding!
+### Development-Planes
+
+#### Strategy
+
+#### Scope
+
+#### Structure
+
+<details>
+<summary>Strategy Plane</summary>
+
+![Strategy Table](assets/readme-files/sitemap.png)
+
+</details>
+
+#### Skeleton
+
+<details>
+<summary>Balsamiq Wireframes</summary>
+
+![Site Wireframes](assets/readme-files/wireframe-all-pages.png)
+
+</details>
+
+### Design
+
+#### Colour Scheme
+
+<details>
+<summary>Colour Palette</summary>
+
+![Colour Palette](assets/readme-files/colour-palette.png)
+
+</details>
+
+#### Typography
+
+#### Imagery
+
+[Back to top ⇧](#)
+
+## Features
+
+## Technologies Used
+
+### Main Languages Used
+
+* HTML5
+* CSS3
+* JavaScript
+
+### Frameworks, Libraries & Programs Used
+
+* [Google Fonts](https://fonts.google.com/)
+  * Google fonts was used to import the fonts "Chivo", "Krub", and "Lato" into the style.css file. These fonts were used throughout the project.
+* Font Awesome
+  * [Font Awesome](https://fontawesome.com/) was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
+* CodeAnywhere
+  * [CodeAnywhere](https://codeanywhere.com/signin) was used for writing code, commiting, and then pushing to GitHub.
+  * IDE used to code the project.
+* [GitHub](https://github.com/)
+  * GitHub was used to store the project after pushing
+* [Adobe Photoshop](https://www.adobe.com/ie/ "link to the adobe homepage")
+  * Adobe Photoshop was used to resize images
+* [Balsamiq](https://balsamiq.com/)
+  * Balsamiq was used to create the wireframes during the design phase of the project.
+* [Am I Responsive?](https://ui.dev/amiresponsive)
+  * 'Am I Responsive' was used to visualise responsive design throughout the process and to generate mockup imagery.
+* [Looka](https://looka.com/)
+  * Looka was used to generate a logo for the website.
+* [TinyPNG](https://tinypng.com/)
+  * TinyPNG was used for image compression and to improve wesbite load speed.
+* [CloudConvert](https://cloudconvert.com/webp-converter)
+  * Cloud Convert was used to convert images to webp files (to reduce file size and increase load speed).
+* [EZgif](https://ezgif.com)
+  * EZgif was used to convert screen recording videos to .gif files for the TESTING.md file
+
+## Testing
+
+## Responsiveness
+
+[Back to top ⇧]
+
+## Bugs/Known Issues
+
+[Back to top ⇧]
+
+## Deployment
+
+This project was developed using [CodeAnywhere](https://codeanywhere.com/ "Link to CodeAnywhere site"), which was then committed and pushed to GitHub using the GitPod terminal.
+
+### Deploying on GitHub Pages
+
+In oder to deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log in to [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository: WSL Quiz](https://roc-11.github.io/wsl-quiz/ "Link to GitHub Repo").
+3. At the top of the repository, locate 'Settings' from the menu items.
+4. Scroll down the settings page until you reach 'Pages' in 'Code and
+automation' section.
+1. Under 'Source' click the drop-down menu labelled 'Select Branch' and select 'Main'. Click the dropdown called 'Select folder' and select '/root'.
+2. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+3. Scroll back down to the 'Pages' section to retrieve the deployed [link](https://roc-11.github.io/wsl-quiz/)
+
+[Back to top ⇧](#)
+
+## Credits
+
+### Content
+
+### Media
+
+### Code
+
+## Acknowledgements
+
+* My family for assisting me in the testing of the website.
+* Code Institute Slack community for their helpful opinions, advice and feedback.
+
+[Back to top ⇧](#)
