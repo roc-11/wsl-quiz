@@ -286,6 +286,7 @@ The heads up display provides the user with information about their progress dur
 ### Leaderboard
 
 - The leadboard page displays the top 5 high scores from the quiz, in the form of a visually appealing table.
+- A blue ribbon is shown on the top score (first table row) - to highlight the top quiz score.
 - If there are no high scores saved in local storage, the leaderboard will display a message encouraging the user to take the quiz in order to get on the leaderboard.
 - If there are high scored saved, they will be shown. A trophy image, the username and the score are displayed for each high score. The maximum number of high scores saved/displayed is 5.
 - Users can hover over each row for some interactivity.

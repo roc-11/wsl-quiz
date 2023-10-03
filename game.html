@@ -48,7 +48,9 @@
           <li class="active">
             <a href="index.html"><span aria-hidden="true">00</span>Home </a>
           </li>
+          <!-- don't display leaderboard link on game page -->
           <li></li>
+          <!-- toggle sound on/off button -->
           <li class="mute-button-container">
             <button type="button" id="mute-button" aria-label="Mute volume">
               <i class="fas fa-volume-up" aria-hidden="true"></i>
@@ -67,10 +69,11 @@
           <div id="hud">
             <div id="hud-item">
               <p id="progress-text" class="hud-prefix">Question</p>
-              <!-- new progress lollipop bar https://codepen.io/dbilanoski/pen/NZmOJR -->
+              <!-- new progress lollipop bar adapted from https://codepen.io/dbilanoski/pen/NZmOJR -->
               <div id="progress-bar">
                 <div class="progress-bar-lollipop">
                   <div class="bar" data-size="100">
+                    <!-- for the % of progress text -->
                     <span class="perc"></span>
                   </div>
                 </div>

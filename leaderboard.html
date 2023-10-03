@@ -20,7 +20,7 @@
     <!-- header -->
     <header class="primary-header flex">
       <div>
-        <!-- logo made on https://www.freelogodesign.org/manager/logo/49ddfdd4370c426b9e601b19625debdd/showcase-->
+        <!-- Logo made on https://www.freelogodesign.org/manager/logo/49ddfdd4370c426b9e601b19625debdd/showcase-->
         <a href="index.html"
           ><img
             id="logo"
@@ -38,7 +38,7 @@
         <span class="sr-only">Menu</span>
       </button>
 
-      <!-- navigation (YouTube Tutorial https://www.youtube.com/watch?v=HbBMp6yUXO0)-->
+      <!-- navigation (Code adapted from YouTube Tutorial https://www.youtube.com/watch?v=HbBMp6yUXO0)-->
       <nav>
         <ul
           id="primary-naviagtion"
@@ -53,6 +53,7 @@
               ><span aria-hidden="true">01</span>Leaderboard
             </a>
           </li>
+        <!-- toggle sound on/off button -->
           <li class="mute-button-container">
             <button type="button" id="mute-button" aria-label="Mute volume">
               <i class="fas fa-volume-up" aria-hidden="true"></i>
@@ -62,13 +63,15 @@
       </nav>
     </header>
 
-    <!-- https://codepen.io/MalunariDev/pen/RweGGxx -->
+    <!-- Leaderboard Table adapted from https://codepen.io/MalunariDev/pen/RweGGxx by Malunari -->
     <main id="mainLeaderboard">
       <div id="header">
         <h1>Leaderboard</h1>
       </div>
       <div id="leaderboard">
+        <!-- Blue ribbon on first row of table - highlight top score -->
         <div class="ribbon"></div>
+        <!-- populate high score table using JS -->
         <table id="highScoresList"></table>
         <div id="buttons">
           <a class="btn" id="play-btn" href="#" onclick="PlaySound();"
