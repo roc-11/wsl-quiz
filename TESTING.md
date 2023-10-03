@@ -86,7 +86,7 @@ The project was also user tested by a some class colleagues on the [Slack](https
    - The user can click on the "Contact Us" link in the main navigation bar to take them to the contact us/booking form.
    - The user can find contact details in the form of an email address & phone number in the main footer. Both of these are clickable and perform actions.
 
-[Back to top ⇧](#max-rehab-physiotherapy---testing)
+[Back to top ⇧](#wsl-quiz---testing)
 
 ## Manual Testing
 
@@ -200,14 +200,14 @@ A previous pass through this tool showed multiple errors related to 'trailing sl
 The Cascading Stylesheet code was tested using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). No errors were found when the CSS was passed through this tool.
 ![Screenshot of W3C CSS Validation](assets/readme-files/css-validation.png)
 
-[Back to top ⇧](#max-rehab-physiotherapy---testing)
+[Back to top ⇧](#wsl-quiz---testing)
 
 ## Performance
 
 [Lighthouse](https://www.webpagetest.org/lighthouse) Google Webdev tools were used to test the performance of the website.
 ![Screenshot of Lighthouse Peformance Testing](assets/readme-files/max-rehab-performance-testing.png)
 
-[Back to top ⇧](#max-rehab-physiotherapy---testing)
+[Back to top ⇧](#wsl-quiz---testing)
 
 ## Accessibility
 
@@ -217,4 +217,4 @@ Semantic markup was used when developing the site to ensure the site is readable
 
 ![Screenshot of Wave Accessibility Testing](assets/readme-files/wave-accessibility-testing.png)
 
-[Back to top ⇧](#max-rehab-physiotherapy---testing)
+[Back to top ⇧](#wsl-quiz---testing)

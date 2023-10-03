@@ -3,7 +3,9 @@
 ## Developer: Róisín O'Connell 
 
 ![WSL Quiz Mockup Images](assets/readme-files/wsl-quiz-mockup.png)
+
 [View the live project here](https://roc-11.github.io/wsl-quiz/)
+
 [View GitHub repository](https://github.com/roc-11/wsl-quiz)
 
 ## Table of Contents
