@@ -204,15 +204,37 @@ I used Adobe Photoshop to resize the background image for better display on smal
 - The navigation is in an uppercase, white font which contrasts with the dark background.
 - The active page which the user is currently on is underlined.
 - When the user hovers over a link, the link is clearly underlined.
-- The navigation makes clear the name of the company and website.
+- The navigation makes clear the name and purpose of the website.
 - The navigation makes the different sections of information easy to find.
-  ![Screenshot of the navigation image](assets/readme-files/max-rehab-navigation.png)
+- The navigation bar collapses on mobile screens into a burger menu. When clicked it opens from screen right in a transparent overlay.
+  ![Screenshot of the navigation image](assets/readme-files/responsive-nav-bar.png)
 
 ### Sound Button
 
+- A sound/mute button is included to give the user control over the audio that is included on the site.
+- The button appears as a volume up icon when the sound is on, and a mute button when the sound is off.
+  ![Screenshot of the sound button](assets/readme-files/sound-button.png)
+
 ### Homepage
 
+- The homepage features a large heading which makes clear the purpose and function of the site.
+- The subheading challenges the user to take part in the quiz.
+- The user is presented with 3 buttons which perform different functions:
+  - Play - which takes the user to the quiz
+  - Rules - which opens the rules modal (#rules-modal)
+  - Leaderboard - which takes the user to the leaderboard/high scores page (#Leaderboard)
+- When a user hovers over a button there is a subtle css transform which moves the button slightly and a blue shadow, to indicate the hover action.
+- If sound is on, a fotball referee whistle sound will play when PLAY is clicked
+  ![Screenshot of the homepage](assets/readme-files/homepage.png)
+
 ### Rules Modal
+
+- When the RULES button is click, a rules modal will show on screen. 
+- The modal contains information for the user on how the quiz game and scoring system works.
+- The user can easily close the modal by clicking the CLOSE button.
+- The modal is displayed using Javascript, so the page does not need to be reloaded.
+- While the modal is active, the background will be disabled. This is indicated to the user by a color change (subtle gradient.)
+  ![Screenshot of the rules modal](assets/readme-files/rules-modal.png)
 
 ### Quiz Page - Question and Answers
 
