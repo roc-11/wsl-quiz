@@ -29,11 +29,12 @@
     - [Navigation](#navigation)
     - [Sound Button](#sound-button)
     - [Homepage](#homepage)
+    - [Rules Modal](#rules-modal)
     - [Quiz Page - Question and Answers](#quiz-page---question-and-answers)
-    - [Progress Bar and Test](#progress-bar-and-test)
-    - [Score](#score)
+    - [Heads Up Display (HUD)](#heads-up-display-hud)
+      - [Progress Bar and Text](#progress-bar-and-text)
+      - [Score](#score)
     - [End Page - Submit Score](#end-page---submit-score)
-    - [Progress Bar and Text](#progress-bar-and-text)
     - [Leaderboard](#leaderboard)
   - [Technologies Used](#technologies-used)
     - [Main Languages Used](#main-languages-used)
@@ -198,19 +199,30 @@ I used Adobe Photoshop to resize the background image for better display on smal
 
 ### Navigation
 
+- Featured at the top of the page, the navigation shows the WSL Quiz logo in the left corner.
+- The other navigation links are to the right: Home, Leaderboard (only Home on Game page) which link to different pages of the site.
+- The navigation is in an uppercase, white font which contrasts with the dark background.
+- The active page which the user is currently on is underlined.
+- When the user hovers over a link, the link is clearly underlined.
+- The navigation makes clear the name of the company and website.
+- The navigation makes the different sections of information easy to find.
+  ![Screenshot of the navigation image](assets/readme-files/max-rehab-navigation.png)
+
 ### Sound Button
 
 ### Homepage
 
+### Rules Modal
+
 ### Quiz Page - Question and Answers
 
-### Progress Bar and Test
+### Heads Up Display (HUD)
 
-### Score
+#### Progress Bar and Text
+
+#### Score
 
 ### End Page - Submit Score
-
-### Progress Bar and Text
 
 ### Leaderboard
 

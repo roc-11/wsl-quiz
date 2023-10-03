@@ -195,6 +195,10 @@ https: //codepen.io/mortezasharifinia/pen/QWxmEWW */
     margin-inline-end: .75em;
 }
 
+.active {
+    border-bottom: 1px solid white;
+}
+
 #mute-button {
     font-size: 1.1rem;
     margin: 0px;
