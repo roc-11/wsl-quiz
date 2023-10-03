@@ -4,6 +4,7 @@
 
 ![WSL Quiz Mockup Images](assets/readme-files/wsl-quiz-mockup.png)
 [View the live project here](https://roc-11.github.io/wsl-quiz/)
+[View GitHub repository](https://github.com/roc-11/wsl-quiz)
 
 ## Table of Contents
 
@@ -39,6 +40,7 @@
     - [Leaderboard](#leaderboard)
     - [404 - Page Not Found](#404---page-not-found)
     - [500 Page](#500-page)
+    - [Features to Implement in the future](#features-to-implement-in-the-future)
   - [Technologies Used](#technologies-used)
     - [Main Languages Used](#main-languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
@@ -303,6 +305,17 @@ The heads up display provides the user with information about their progress dur
 
 * The 500 page is the same as the 404 page, except for a different heading telling the user there was an internal server error.
   ![Screenshot of the 500 page image](assets/readme-files/wsl-quiz-500.png)
+  
+### Features to Implement in the future
+
+In the future I would like to build upon the quiz functionality. 
+1. Add different levels of difficulty to provide an extra challenge for WSL experts, and easy version for user's who are new to women's football.
+2. Add a timer to the quiz, so that users get a limited time for each question.
+3. 
+This was beyond the scope of this project as time was limited, however, it would greatly add to the user experience of the WSL Quiz site.
+
+[Back to top ⇧](#womens-super-league-wsl-qui)
+
 
 ## Technologies Used
 
@@ -349,7 +362,21 @@ The heads up display provides the user with information about their progress dur
 
 ## Testing
 
+Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
+
+[Back to top ⇧](#womens-super-league-wsl-quiz)
+
 ## Responsiveness
+
+Google Webdev tools were used throughout the project in order to ensure the site was responsive and user-friendly across a range of device and screen sizes.
+
+The breakpoints used within the site are 950px, 800px, 580px, 440px and 360px.
+
+In general, much of the site content is displayed using flex CSS in either flex-rows or flex-columns. The screen space is optimised for the user by doing this.
+
+There were responsivity issues regarding the display of all the quiz and hompage containers on smaller screens. This was a CSS issue from the initial development when body height = 100vh had to be removed. 
+
+The website is full responsive and all functions are displayed correctly.
 
 [Back to top ⇧](#womens-super-league-wsl-quiz)
 
