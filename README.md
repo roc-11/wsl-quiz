@@ -238,6 +238,16 @@ I used Adobe Photoshop to resize the background image for better display on smal
 
 ## Bugs/Known Issues
 
+During initial testing, there were a few bugs discovered. After testing for various screen sized, there was a lot of work to do in oder to make the website responsive. I had set the body height to 100vh, which caused many issues on mobile devices and took a lot of effort to resolve. My initial footer was unnecessary and distracting for the user experience so I removed it while testing the site. 
+
+The necessary changes were made an the website is now fully responsive.
+
+I had difficulty implementing the audio sound features at first. As I scripted the quiz across multiple HTML and JS files, it was not possible for the mute button to work smoothly across the site at first, so I decided to use local storage to achieve the functionality I wanted to achieve.
+
+I also had some issues around file paths. Everything functioned as expected in the development environment, and it was not until I deployed the site that the issues become clear. I suspected my file paths on links (buttons) were incorrect. I consulted my peers on Slack but they had similar file paths and directories. The problem lay in a simple "window." preceding "location.href" when setting the href in the Javascript code. All links now work as expected.
+
+There are currently no known bugs/issues with the website.
+
 [Back to top ⇧](#womens-super-league-wsl-quiz)
 
 ## Deployment
