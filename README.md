@@ -114,6 +114,10 @@ The scope plane is about determining the requirements based on the goals establi
 
 #### Structure
 
+The information was organised into a heirarchical tree structure (a site map) making clear how users would navigate the website with ease.
+
+The site map can be found below:
+
 <details>
 <summary>Strategy Plane</summary>
 
@@ -171,7 +175,7 @@ The pairing chosen for the site are:
 - A backup of 'Lato' and sans-serif are applied in case of failure.
 - [Rubik](https://fonts.google.com/specimen/Rubik) is used for the leaderboard table.
 
-Palanquin Dark is used for title headings, while Roboto is used for almost all other text (aside from Rubik on the leaderboard). Both were imported from[Google Fonts](https://fonts.google.com/).
+Palanquin Dark is used for title headings, while Roboto is used for almost all other text (aside from Rubik on the leaderboard). Both were imported from [Google Fonts](https://fonts.google.com/).
 
 #### Imagery
 
@@ -185,6 +189,10 @@ I used Adobe Photoshop to resize the background image for better display on smal
 
 ## Technologies Used
 
+* HTML5 - for creation of markup for the website/application content.
+* CSS3 - cascading style sheets used to style the application.
+- Javascript - Scripting language used to add interactivity to the quiz application, mainly through DOM manipulation.
+
 ### Main Languages Used
 
 * HTML5
@@ -194,9 +202,9 @@ I used Adobe Photoshop to resize the background image for better display on smal
 ### Frameworks, Libraries & Programs Used
 
 * [Google Fonts](https://fonts.google.com/)
-  * Google fonts was used to import the fonts "Chivo", "Krub", and "Lato" into the style.css file. These fonts were used throughout the project.
+  * Google fonts was used to import the fonts "Palanquin Dark", "Roboto", and "Rubik" into the style.css file. These fonts were used throughout the project.
 * Font Awesome
-  * [Font Awesome](https://fontawesome.com/) was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
+  * [Font Awesome](https://fontawesome.com/) was used on almost all pages throughout the website to import icons (e.g. button icons) for UX purposes.
 * CodeAnywhere
   * [CodeAnywhere](https://codeanywhere.com/signin) was used for writing code, commiting, and then pushing to GitHub.
   * IDE used to code the project.
@@ -208,14 +216,26 @@ I used Adobe Photoshop to resize the background image for better display on smal
   * Balsamiq was used to create the wireframes during the design phase of the project.
 * [Am I Responsive?](https://ui.dev/amiresponsive)
   * 'Am I Responsive' was used to visualise responsive design throughout the process and to generate mockup imagery.
-* [Looka](https://looka.com/)
+* [Free Logo Design](https://www.freelogodesign.org/)
   * Looka was used to generate a logo for the website.
 * [TinyPNG](https://tinypng.com/)
   * TinyPNG was used for image compression and to improve wesbite load speed.
-* [CloudConvert](https://cloudconvert.com/webp-converter)
-  * Cloud Convert was used to convert images to webp files (to reduce file size and increase load speed).
 * [EZgif](https://ezgif.com)
   * EZgif was used to convert screen recording videos to .gif files for the TESTING.md file
+* [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
+  * Google Chrome Dev Tools was used during the testing phase to test the responsiveness of the site and to check for any bugs.
+* [Pexels](https://www.pexels.com/)
+  * Pexels was used as a source for the background image. 
+* [w3schools](https://www.w3schools.com)
+  * w3schools was used as a guide for Javascript usage and syntax throughout the project.
+* [YouTube](https://www.youtube.com)
+  * YouTube tutorials were used as inspiration for many elements of the project, listed below (and included in project code):
+  * Responsive Nav Bar by [Kevin Powell](https://www.youtube.com/watch?v=HbBMp6yUXO0)
+  * Build A Quiz App by [James Q Quick](https://www.youtube.com/watch?v=rFWbAj40JrQ)
+  * Dialog = the easiest way to make a popup modal by [Kevin Powell](https://www.youtube.com/watch?v=TAB_v6yBXIE)
+* [Codepen](https://codepen.io/)
+  - Leaderboard by [Malunari](https://codepen.io/MalunariDev/pen/RweGGxx)
+  - Lollipop Progress Bar with Percentage by [Danilo Bilanoski](https://codepen.io/dbilanoski/pen/NZmOJR)
 
 ## Testing
 
