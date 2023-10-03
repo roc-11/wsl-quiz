@@ -37,6 +37,8 @@
       - [Score](#score)
     - [End Page - Submit Score](#end-page---submit-score)
     - [Leaderboard](#leaderboard)
+    - [404 - Page Not Found](#404---page-not-found)
+    - [500 Page](#500-page)
   - [Technologies Used](#technologies-used)
     - [Main Languages Used](#main-languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
@@ -289,6 +291,17 @@ The heads up display provides the user with information about their progress dur
 - Users can hover over each row for some interactivity.
 - The leaderboard page also features a PLAY button, taking the user directly to the quiz.
  ![Screenshot of the leaderboard page](assets/readme-files/leaderboard.png)
+
+ ### 404 - Page Not Found
+
+* The 404 page is a single page in the case of the user entering the incorrect address into the address bar. 
+* The page informs the user that the page was not fount and encourages them to click the button, taking them directly back to the website home page. 
+  ![Screenshot of the 404 page image](assets/readme-files/wsl-quiz-404.png)
+
+### 500 Page
+
+* The 500 page is the same as the 404 page, except for a different heading telling the user there was an internal server error.
+  ![Screenshot of the 500 page image](assets/readme-files/wsl-quiz-500.png)
 
 ## Technologies Used
 
