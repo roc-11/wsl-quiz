@@ -31,6 +31,7 @@
     - [Homepage](#homepage)
     - [Rules Modal](#rules-modal)
     - [Quiz Page - Question and Answers](#quiz-page---question-and-answers)
+    - [Quiz Page - Loader](#quiz-page---loader)
     - [Heads Up Display (HUD)](#heads-up-display-hud)
       - [Progress Bar and Text](#progress-bar-and-text)
       - [Score](#score)
@@ -238,11 +239,37 @@ I used Adobe Photoshop to resize the background image for better display on smal
 
 ### Quiz Page - Question and Answers
 
+- The quiz page contains the main functionality of the site. The user is presented with a HUD, question and answer, all contained within a blue box (in keeping with the theme).
+- The quiz will display 1 of 10 questions, in a random order when the quiz begins. 
+- The user is presented with 4 possible answers for each question.
+- If a user answers correctly, the correct answer will display in green and if the sound is on a correct answer sound will play. These provide the user with visual and auditory feedback. 
+- If a user answers incorrectly, the answer they selected will display in a red colour. The correct answer will not be shown in this case. This encourages the user to re-take the quiz and try to improve on their score. 
+  ![Screenshot of the quiz page](assets/readme-files/quiz-page.png)
+  ![Screenshot of the quiz questions and answers](assets/readme-files/quiz-question-answers.png)
+
+### Quiz Page - Loader
+
+- While the quiz is loading, the user will see a loader to indicate that the quiz is loading.
+  ![Screenshot of the loader](assets/readme-files/loader.png)
+
 ### Heads Up Display (HUD)
+
+The heads up display provides the user with information about their progress during the quiz and also about their current score.
 
 #### Progress Bar and Text
 
+- The lollipop progress bar shows the user how they are progressing through the quiz. They can visually see the % in text form, as well as how much of the bar is currently full. 
+- The bar is orange in keeping with the WSL Quiz theme.
+- The progress bar is updated through Javascript as the user progresses through the quiz.
+- The question number is also displayed in text form above the progress bar.
+ ![Screenshot of the progress bar](assets/readme-files/progress-bar.png)
+
 #### Score
+
+- The user's current score is shown on the HUD in clear text. 
+- The score is updated as the user progresses through the quiz.
+- The final score is passed to the end page so that the user can save it to the leaderboard.
+  ![Screenshot of the score](assets/readme-files/score.png)
 
 ### End Page - Submit Score
 
