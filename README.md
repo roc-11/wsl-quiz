@@ -273,7 +273,22 @@ The heads up display provides the user with information about their progress dur
 
 ### End Page - Submit Score
 
+- When the user finishes the quiz they are taken to the end page.
+- The end page shows the user their final score in large text.
+- There is an input box for the user to enter their name, so that their name will be saved to the leaderboard. 
+- The save button is disabled until the user enters a username. After a username is entered, the Save button becomes enabled.
+- The user also has the option to click the button to PLAY AGAIN (taking the quiz again) or return HOME, without saving their score.
+  ![Screenshot of the End Page](assets/readme-files/end-page.png)
+  ![Screenshot of the End Page - submit score](assets/readme-files/submit-score.png)
+
 ### Leaderboard
+
+- The leadboard page displays the top 5 high scores from the quiz, in the form of a visually appealing table.
+- If there are no high scores saved in local storage, the leaderboard will display a message encouraging the user to take the quiz in order to get on the leaderboard.
+- If there are high scored saved, they will be shown. A trophy image, the username and the score are displayed for each high score. The maximum number of high scores saved/displayed is 5.
+- Users can hover over each row for some interactivity.
+- The leaderboard page also features a PLAY button, taking the user directly to the quiz.
+ ![Screenshot of the leaderboard page](assets/readme-files/leaderboard.png)
 
 ## Technologies Used
 
