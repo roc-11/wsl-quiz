@@ -190,6 +190,10 @@ https: //codepen.io/mortezasharifinia/pen/QWxmEWW */
     color: white;
 }
 
+.primary-navigation a:hover {
+    border-bottom: 1px solid white;
+}
+
 .primary-navigation a>span {
     font-weight: 700;
     margin-inline-end: .75em;
