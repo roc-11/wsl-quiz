@@ -130,10 +130,16 @@ Initially, wireframes plans were hand-drawn on a notepad. More detailed wirefram
 Some layout modifications were made during site development, however, most planned features are included in the final WSL Quiz application. They can be found below:
 
 <details>
-<summary>Balsamiq Wireframes</summary>
+<summary>Balsamiq Wireframe - Desktop</summary>
 
-![Site Wireframes - Desktop](assets/readme-files/
-.png)
+![Site Wireframes - Desktop](assets/readme-files/wireframe-all-pages.png)
+
+</details>
+
+<details>
+
+<summary>Balsamiq Wireframe - Mobile</summary>
+
 ![Site Wireframes - Mobile](assets/readme-files/wireframe-all-page-mobile.png)
 
 </details>
@@ -142,6 +148,13 @@ Some layout modifications were made during site development, however, most plann
 
 #### Colour Scheme
 
+The colourscheme was inspired by the theme 'Burnt Sienna Orange + Bedazzled Blue Color Palette' on [venngage.com](https://venngage.com/blog/blue-color-palettes/). The shades of blue mixed with burnt orange provide a high contrast and complementary colours. I thought the orange/blue contrast gave the quiz the pop I wanted and found it to be visually appealing for the user.
+
+As the wesbite development progressed, I decided to combine the blue/orange shades with simple white font and a black navigation bar. 
+
+All text is coloured either charcoal (#3a3a3a) or white, depending on which background colour it needs to contrast with (essential for accessibility).
+
+Details of the full colour palette can be found below:
 <details>
 <summary>Colour Palette</summary>
 
@@ -151,7 +164,20 @@ Some layout modifications were made during site development, however, most plann
 
 #### Typography
 
+The pairing chosen for the site are:
+
+- [Palanquin Dark](https://fonts.google.com/specimen/Palanquin+Dark)
+- [Roboto](https://fonts.google.com/specimen/Roboto)
+- A backup of 'Lato' and sans-serif are applied in case of failure.
+- [Rubik](https://fonts.google.com/specimen/Rubik) is used for the leaderboard table.
+
+Palanquin Dark is used for title headings, while Roboto is used for almost all other text (aside from Rubik on the leaderboard). Both were imported from[Google Fonts](https://fonts.google.com/).
+
 #### Imagery
+
+The background image was sourced from [Pexels](https://www.pexels.com/). The image is called 'Sky Sunset Field Sunrise' by [Markus Spiske](https://www.pexels.com/@markusspiske/). All images have been compressed in order to speed up loading and processing times, particularly on mobile devices. The images chosen are in line with the theme of the site.
+
+I used Adobe Photoshop to resize the background image for better display on smaller device screens. 
 
 [Back to top ⇧](#womens-super-league-wsl-quiz)
 
