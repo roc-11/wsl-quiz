@@ -12,7 +12,7 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Aim](#aim)
-    - [Business Goals](#business-goals)
+    - [Application Goals](#application-goals)
     - [User Goals](#user-goals)
   - [UX](#ux)
     - [Ideal User Demographic](#ideal-user-demographic)
@@ -47,11 +47,34 @@
 
 ## Introduction
 
+"WSL Quiz" is an interactive quiz that users can take to test their knowledge of the Women's Super League - England's top tier professional women's football league.
+
+The quiz dynamically presents the user with questions, provides visual and auditory feedback for a correct/incorrect answer, tracks what question users are currently on and also tracks the user's score. The user can earn a maximum of 100 points. 
+
+The purpose of the quiz is to test the knowledge of WSL fans. With the women's game growing at a rapid pace after the World Cup 2023, this quiz also serves to increase knowledge for anyone who would like to learn more about the WSL. 
+
+This website was made for the second of five Milestone projects required to complete the Diploma in Full Stack Software Development (e-Commerce Applications) program at [Code Institute](https://codeinstitute.net/ie/ "Link to Code Institute homepage").
+
+The main requirements of this project are to build an interactive, responsive application using Javascript.
+
 ## Aim
 
-### Business Goals
+The aim of the WSL Quiz is mainly to test user’s knowledge of the Women's Super League, in an interactive and fun way. The quiz also serves to let user’s learn more about the WSL by taking part in the quiz. 
+
+### Application Goals
+
+* To provide user’s with an interactive quiz, testing their knowledge of the Women's Super League.
+* To provide feedback to user’s who take part in the quiz.
+* To challenge user’s to get a high score, so that they can get added to the leaderboard.
+* To increase a user’s knowledge about the WSL, if they are interested in learning more. 
 
 ### User Goals
+
+- Navigate easily through the website
+- Take part in the quiz; selecting answers and getting feedback
+- Add high score to the leaderboard (if it qualifies)
+- Control whether sound is on/off
+- Enjoy taking part in an interactive quiz game
 
 [Back to top ⇧](#womens-super-league-wsl-quiz)
 
