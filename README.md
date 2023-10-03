@@ -217,7 +217,7 @@ I used Adobe Photoshop to resize the background image for better display on smal
 * [Am I Responsive?](https://ui.dev/amiresponsive)
   * 'Am I Responsive' was used to visualise responsive design throughout the process and to generate mockup imagery.
 * [Free Logo Design](https://www.freelogodesign.org/)
-  * Looka was used to generate a logo for the website.
+  * Free Logo Design was used to generate a logo for the website.
 * [TinyPNG](https://tinypng.com/)
   * TinyPNG was used for image compression and to improve wesbite load speed.
 * [EZgif](https://ezgif.com)
@@ -228,14 +228,7 @@ I used Adobe Photoshop to resize the background image for better display on smal
   * Pexels was used as a source for the background image. 
 * [w3schools](https://www.w3schools.com)
   * w3schools was used as a guide for Javascript usage and syntax throughout the project.
-* [YouTube](https://www.youtube.com)
-  * YouTube tutorials were used as inspiration for many elements of the project, listed below (and included in project code):
-  * Responsive Nav Bar by [Kevin Powell](https://www.youtube.com/watch?v=HbBMp6yUXO0)
-  * Build A Quiz App by [James Q Quick](https://www.youtube.com/watch?v=rFWbAj40JrQ)
-  * Dialog = the easiest way to make a popup modal by [Kevin Powell](https://www.youtube.com/watch?v=TAB_v6yBXIE)
-* [Codepen](https://codepen.io/)
-  - Leaderboard by [Malunari](https://codepen.io/MalunariDev/pen/RweGGxx)
-  - Lollipop Progress Bar with Percentage by [Danilo Bilanoski](https://codepen.io/dbilanoski/pen/NZmOJR)
+
 
 ## Testing
 
@@ -270,9 +263,28 @@ automation' section.
 
 ### Content
 
+The content and facts to inspire the quiz questions was taken from [Wikipedia Women's Super League page](https://en.wikipedia.org/wiki/Women%27s_Super_League).
+
 ### Media
 
+* The WSL Quiz logo was generated on [Free Logo Design](https://www.freelogodesign.org/ "Link to Free Logo Design Home Page"). 
+* The background image was sourced on [Pexels](https://www.pexels.com/ "Link to Pexels.com") by [Markus Spiske](https://www.pexels.com/@markusspiske/).
+* The icons across the site were sourced from [Font Awesome](https://fontawesome.com/ "Link to Font Awesome homepage")
+  
 ### Code
+The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code.The following sites were used on a more regular basis:
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page") 
+  
+The following credits are linked in the HTML, JS and CSS files. Code was copied and adapted to suit the application from the following sources:
+- [YouTube](https://www.youtube.com)
+  - YouTube tutorials were used as inspiration for many elements of the project, listed below (and included in project code):
+  - Responsive Nav Bar by [Kevin Powell](https://www.youtube.com/watch?v=HbBMp6yUXO0)
+  - Build A Quiz App by [James Q Quick](https://www.youtube.com/watch?v=rFWbAj40JrQ)
+  - Dialog = the easiest way to make a popup modal by [Kevin Powell](https://www.youtube.com/watch?v=TAB_v6yBXIE)
+- [Codepen](https://codepen.io/)
+  - Leaderboard by [Malunari](https://codepen.io/MalunariDev/pen/RweGGxx)
+  - Lollipop Progress Bar with Percentage by [Danilo Bilanoski](https://codepen.io/dbilanoski/pen/NZmOJR)
 
 ## Acknowledgements
 
