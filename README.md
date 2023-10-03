@@ -26,6 +26,15 @@
       - [Typography](#typography)
       - [Imagery](#imagery)
   - [Features](#features)
+    - [Navigation](#navigation)
+    - [Sound Button](#sound-button)
+    - [Homepage](#homepage)
+    - [Quiz Page - Question and Answers](#quiz-page---question-and-answers)
+    - [Progress Bar and Test](#progress-bar-and-test)
+    - [Score](#score)
+    - [End Page - Submit Score](#end-page---submit-score)
+    - [Progress Bar and Text](#progress-bar-and-text)
+    - [Leaderboard](#leaderboard)
   - [Technologies Used](#technologies-used)
     - [Main Languages Used](#main-languages-used)
     - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
@@ -186,6 +195,24 @@ I used Adobe Photoshop to resize the background image for better display on smal
 [Back to top ⇧](#womens-super-league-wsl-quiz)
 
 ## Features
+
+### Navigation
+
+### Sound Button
+
+### Homepage
+
+### Quiz Page - Question and Answers
+
+### Progress Bar and Test
+
+### Score
+
+### End Page - Submit Score
+
+### Progress Bar and Text
+
+### Leaderboard
 
 ## Technologies Used
 
