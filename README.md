@@ -7,6 +7,42 @@
 
 ## Table of Contents
 
+- [Women's Super League (WSL) Quiz](#womens-super-league-wsl-quiz)
+  - [Developer: Róisín O'Connell](#developer-róisín-oconnell)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Aim](#aim)
+    - [Business Goals](#business-goals)
+    - [User Goals](#user-goals)
+  - [UX](#ux)
+    - [Ideal User Demographic](#ideal-user-demographic)
+    - [User-Stories](#user-stories)
+      - [Current User Goals](#current-user-goals)
+      - [New User Goals](#new-user-goals)
+    - [Development-Planes](#development-planes)
+      - [Strategy](#strategy)
+      - [Scope](#scope)
+      - [Structure](#structure)
+      - [Skeleton](#skeleton)
+    - [Design](#design)
+      - [Colour Scheme](#colour-scheme)
+      - [Typography](#typography)
+      - [Imagery](#imagery)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+    - [Main Languages Used](#main-languages-used)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Testing](#testing)
+  - [Responsiveness](#responsiveness)
+  - [Bugs/Known Issues](#bugsknown-issues)
+  - [Deployment](#deployment)
+    - [Deploying on GitHub Pages](#deploying-on-github-pages)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Code](#code)
+  - [Acknowledgements](#acknowledgements)
+
 ***
 
 ## Introduction
@@ -17,7 +53,7 @@
 
 ### User Goals
 
-[Back to top ⇧](#)
+[Back to top ⇧](#womens-super-league-wsl-quiz)
 
 ## UX
 
@@ -73,7 +109,7 @@ The ideal user for this website is:
 
 #### Imagery
 
-[Back to top ⇧](#)
+[Back to top ⇧](#womens-super-league-wsl-quiz)
 
 ## Features
 
@@ -115,11 +151,11 @@ The ideal user for this website is:
 
 ## Responsiveness
 
-[Back to top ⇧]
+[Back to top ⇧](#womens-super-league-wsl-quiz)
 
 ## Bugs/Known Issues
 
-[Back to top ⇧]
+[Back to top ⇧](#womens-super-league-wsl-quiz)
 
 ## Deployment
 
@@ -138,7 +174,7 @@ automation' section.
 2. Upon selection, the page will automatically refresh meaning that the website is now deployed.
 3. Scroll back down to the 'Pages' section to retrieve the deployed [link](https://roc-11.github.io/wsl-quiz/)
 
-[Back to top ⇧](#)
+[Back to top ⇧](#womens-super-league-wsl-quiz)
 
 ## Credits
 
@@ -153,4 +189,4 @@ automation' section.
 * My family for assisting me in the testing of the website.
 * Code Institute Slack community for their helpful opinions, advice and feedback.
 
-[Back to top ⇧](#)
+[Back to top ⇧](#womens-super-league-wsl-quiz)
