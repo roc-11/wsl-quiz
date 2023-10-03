@@ -108,6 +108,10 @@ The application needs to enable the user to:
 
 #### Scope
 
+The scope plane is about determining the requirements based on the goals established on the strategy plane.
+* Content Requirements - the user will need to find the information defined above.
+* Functionality Requirements - the user will need to be able to easily navigate the site to take part in the quiz and view the leaderboard.
+
 #### Structure
 
 <details>
@@ -119,10 +123,18 @@ The application needs to enable the user to:
 
 #### Skeleton
 
+The appearance of each page of the application was planned by making wireframes. It was essential to provide a positive user experience for the user. 
+
+Initially, wireframes plans were hand-drawn on a notepad. More detailed wireframes were then created using a desktop version of [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage"). 
+
+Some layout modifications were made during site development, however, most planned features are included in the final WSL Quiz application. They can be found below:
+
 <details>
 <summary>Balsamiq Wireframes</summary>
 
-![Site Wireframes](assets/readme-files/wireframe-all-pages.png)
+![Site Wireframes - Desktop](assets/readme-files/
+.png)
+![Site Wireframes - Mobile](assets/readme-files/wireframe-all-page-mobile.png)
 
 </details>
 
