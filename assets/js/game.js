@@ -115,7 +115,7 @@ const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = questions.length;
 
 /**
- * The main game "loop", called when the script is first loaded
+ * The main game function, called when the script is first loaded
  * and after the user's answer has been processes
  */
 startGame = () => {
@@ -133,7 +133,7 @@ startGame = () => {
 };
 
 /**
- * The main game "loop", called when the script is first loaded
+ * Function to load a new question, when the game begins
  * and after the user's answer has been processes
  */
 getNewQuestion = () => {
@@ -149,8 +149,6 @@ getNewQuestion = () => {
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     //update the progress bar (as a %)
-    //progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
-    //progressBarFull.innerHTML = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
     setTimeout(loadingProgressBar, 800);
 
@@ -178,7 +176,6 @@ getNewQuestion = () => {
 /* Event Listener to check which answer clicked against correct answer */
 choices.forEach((choice) => {
     choice.addEventListener('click', (e) => {
-        //console.log(e.target);
 
         //if not ready to answer, ignore click 
         if (!acceptingAnswers) return;
@@ -211,7 +208,7 @@ choices.forEach((choice) => {
 });
 
 /**
- * The main game "loop", called when the script is first loaded
+ * Increment the score 
  * and after the user's answer has been processes
  */
 incrementScore = num => {
@@ -231,8 +228,6 @@ function loadingProgressBar() {
         let startWidth = 0;
         const endWidth = current.dataset.size;
 
-        //progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
-        //progressBarFull.innerHTML = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
         /* 
         setInterval() time sholud be set as trasition time / 100. 
         In our case, 2 seconds / 100 = 20 milliseconds. 
@@ -250,5 +245,3 @@ function loadingProgressBar() {
         }
     });
 }
-
-//setTimeout(loadingProgressBar, 1000);

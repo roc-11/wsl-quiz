@@ -1,3 +1,4 @@
+/* set up variables */
 const username = document.getElementById('username');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
@@ -39,7 +40,7 @@ saveHighScore = (e) => {
     console.log(highScores);
 };
 
-//for the sound 
+//for the sound - play referee whistle when user clicks PLAY AGAIN button
 const playAgainQuizSound = new Audio('assets/audio/whistle-sound.mp3');
 const playAgain = document.getElementById('playAgain');
 function PlayAgainSound() {
