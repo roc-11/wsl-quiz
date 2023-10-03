@@ -205,13 +205,13 @@ The Cascading Stylesheet code was tested using the [W3C CSS Validator](https://j
 ## Performance
 
 [Lighthouse](https://www.webpagetest.org/lighthouse) Google Webdev tools were used to test the performance of the website.
-![Screenshot of Lighthouse Peformance Testing](assets/readme-files/max-rehab-performance-testing.png)
+![Screenshot of Lighthouse Peformance Testing](assets/readme-files/wsl-quiz-performance-testing.png)
 
 [Back to top ⇧](#wsl-quiz---testing)
 
 ## Accessibility
 
-[Wave](https://wave.webaim.org/) Web Accessibility Evaluation tool was used to check accessibility. It detected a minor alert where table is used for the opening times in the footer. The contrast check passed, as did all other accessibility checks.
+[Wave](https://wave.webaim.org/) Web Accessibility Evaluation tool was used to check accessibility. It detected a minor alert where I have 2 home links on the nav bar (Home and Logo). The contrast check passed, as did all other accessibility checks.
 
 Semantic markup was used when developing the site to ensure the site is readable for the visually impaired/those using screen readers and other forms of assistive technology. Alt text descriptions are included for all images and aria-labels for all links.
 
