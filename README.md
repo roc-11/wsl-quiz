@@ -15,10 +15,7 @@
     - [Application Goals](#application-goals)
     - [User Goals](#user-goals)
   - [UX](#ux)
-    - [Ideal User Demographic](#ideal-user-demographic)
     - [User-Stories](#user-stories)
-      - [Current User Goals](#current-user-goals)
-      - [New User Goals](#new-user-goals)
     - [Development-Planes](#development-planes)
       - [Strategy](#strategy)
       - [Scope](#scope)
@@ -80,22 +77,34 @@ The aim of the WSL Quiz is mainly to test user’s knowledge of the Women's Supe
 
 ## UX
 
-### Ideal User Demographic
-
-The ideal user for this website is:
-
-* Current user
-* New user
-
 ### User-Stories
 
-#### Current User Goals
+User Story 1: User new to the women's football environment and looking to build knowledge and test what I already know about the sport. I want to play a WSL Quiz to learn more about the WSL and enjoy the quiz experience.
 
-#### New User Goals
+User Story 2: User who is a fan of the WSL or women's football in general. I want to test my knowledge but I also want to challenge myself by achieving a high score and earning a place on the leaderboard.
 
 ### Development-Planes
 
+To create a comprehensive application that fulfills the above user stories and identifies the functionality of the site.
+
 #### Strategy
+
+Strategy incorporates user needs as well as service objectives. This website will focus on the following target audience:
+- Roles:
+  - User Story 1
+  - User Story 2
+- Demographic:
+  - All ages
+  - Fans of the Women's Super League (mainly residing in England and Ireland)
+  - New to women's football (probably off the back of the success of the Women's World Cup 2023)
+
+The application needs to enable the user to:
+
+- Navigate easily through the website
+- Take part in the quiz; selecting answers and getting feedback
+- Add high score to the leaderboard (if it qualifies)
+- Control whether sound is on/off
+- Enjoy taking part in an interactive quiz game
 
 #### Scope
 
