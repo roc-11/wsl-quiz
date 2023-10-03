@@ -191,9 +191,9 @@ All pages of the website were tested using the [W3C official HTML validation too
 A previous pass through this tool showed multiple errors related to 'trailing slash on void elements'. An autoformat option has to be changed on the CodeAnywhere IDE in order to rectify these.
 
 ![Screenshot of W3C HTML Validation - Home Page](assets/readme-files/html-validation.png)
-![Screenshot of W3C HTML Validation - About Us Page](assets/readme-files/html-validation-about.png)
-![Screenshot of W3C HTML Validation - Our Services Page](assets/readme-files/html-validation-services.png)
-![Screenshot of W3C HTML Validation - Contact Us Page](assets/readme-files/html-validation-contact.png)
+![Screenshot of W3C HTML Validation - Game Page](assets/readme-files/html-validation-game.png)
+![Screenshot of W3C HTML Validation - End Page](assets/readme-files/html-validation-end.png)
+![Screenshot of W3C HTML Validation - Leaderboard Page](assets/readme-files/html-validation-leaderboard.png)
 
 ### CSS Validation
 
