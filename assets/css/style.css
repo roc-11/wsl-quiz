@@ -19,7 +19,7 @@ body {
     height: 100vh
     */
     max-height: 1600px;
-    background: url('../images/background_image.jpg');
+    background: url('../images/background-image.jpg');
     background-size: cover;
     font-family: 'Roboto', 'Lato', sans-serif;
     color: #3a3a3a
