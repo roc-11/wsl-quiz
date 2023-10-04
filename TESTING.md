@@ -20,9 +20,9 @@
   - [Manual Testing](#manual-testing)
     - [Common Elements Testing](#common-elements-testing)
     - [Home Page](#home-page)
-    - [About Us Page](#about-us-page)
-    - [Our Services Page](#our-services-page)
-    - [Contact Us Page](#contact-us-page)
+    - [Leaderboard Page](#leaderboard-page)
+    - [Quiz Page](#quiz-page)
+    - [End Page](#end-page)
     - [Error Pages - 404 and 500 Error Pages](#error-pages---404-and-500-error-pages)
   - [Validator Testing](#validator-testing)
     - [HTML Validation](#html-validation)
@@ -99,89 +99,69 @@ Manual testing was conducted on the following elements that appear on every page
 
      ![Navigation Bar page links](assets/readme-files/manual-testing-navigation-bar.gif)
 
-- Clicking and dragging on the map will move the area shown on the map. Clicking the plus and minus buttons changes the zoom of the map.
+- When the page is resized, and scaled down to a mobile device sized screen, the nav bar becomes a buger menu.
 
-     ![iFrame Google Maps Functionality](assets/readme-files/manual-testing-map.gif)
-
-- Clicking on the Social Media links will open a new tab
-
-     Facebook:
-
-    ![Facebook Social Media link](assets/readme-files/manual-testing-socials-facebook.gif)
-
-     Twitter:
-
-    ![Twitter Social Media link](assets/readme-files/manual-testing-socials-twitter.gif)
-
-     Instagram:
-
-    ![Instagram Social Media link](assets/readme-files/manual-testing-socials-instagram.gif)
-
-- Clicking on the telephone number in the footer will allow the user to directly call the company on mobile devices, and give the user the option to open Skype or other such applications (if they are installed)
-
-    ![Telephone link Functionality](assets/readme-files/manual-testing-telephone.gif)
-
-- Clicking on the email address in the footer will open the default email application on the user's device
-  
-    ![Email link Functionality](assets/readme-files/manual-testing-email.gif)
+     ![Burger Menu Functionality](assets/readme-files/manual-testing-burger-menu.gif)
 
 ### Home Page
 
 Manual testing was conducted on the following elements of the [Home Page](index.html):
 
-- Clicking the "book now" button will bring you to the Contact Us page.
+- Clicking on the RULES button will open a modal. The background will display a gradient to show that it is disabled. The user can close the modal by clicking on the CLOSE button.
 
-    ![Book Now Button - Home Page](assets/readme-files/manual-testing-booknow-button.gif)
+    ![Rules Modal Functionality](assets/readme-files/manual-testing-rules-modal.gif)
 
-- Clicking the "view all services" button will bring you to the Our Services page.
+- Clicking on the PLAY button will take the user to the quiz page. A referee whistle sound will play, so the link is delayed for 80ms.
 
-    ![View All Services Button - Home Page](assets/readme-files/manual-testing-allservices-button.gif)
+    ![Play Button Functionality](assets/readme-files/manual-testing-play.gif)
 
 - The responsiveness of the Home page
 
     ![Responsiveness - Home Page](assets/readme-files/manual-testing-homepage-responsive.gif)
 
-### About Us Page
+### Leaderboard Page
 
-Manual testing was conducted on the following elements of the [About Us Page](about.html):
+Manual testing was conducted on the following elements of the [Leaderboard Page](leaderboard.html):
 
-- The responsiveness of the About Us page
-
-    ![Responsiveness - About Us Page](assets/readme-files/manual-testing-aboutus-responsive.gif)
-
-### Our Services Page
-
-Manual testing was conducted on the following elements of the [Our Services Page](services.html):
-
-- Clicking on the YouTube video controls will allow the user to play and pause the video, among other controls.
+- Hovering over the leaderboard rows, the user will see a transform of the row to indicate hovering.
   
-    ![YouTube Video - Our Services Page](assets/readme-files/manual-testing-services-youtube.gif)
+    ![Leaderboard Functionality](assets/readme-files/manual-testing-leaderboard.gif)
 
-- The responsiveness of the Our Services page
+- The responsiveness of the Leaderboard page
 
-    ![Responsiveness - Our Services Page](assets/readme-files/manual-testing-services-responsive.gif)
+    ![Responsiveness - Leaderboard Page](assets/readme-files/manual-testing-leaderboard-responsive.gif)
 
-### Contact Us Page
+### Quiz Page
 
-Manual testing was conducted on the following elements of the [Contact Us Page](contact.html):
+Manual testing was conducted on the following elements of the [Quiz Page](game.html):
 
-- When filling out the contact form, the user must complete all fields before submitting. Hovering over the submit button will trigger `hover` effect, highlighting the button for the user.
+- The user can click on one of 4 answer buttons. Clicking a right answer will result in the answer turning green. Clicking an incorrect answer will result in the answer turning red. The user is shown their SCORE and PROGRESS in the HUD above the quiz questions & answers.
 
-    ![Form required fields - Contact Us Page](assets/readme-files/manual-testing-contactus-form.gif)
+    ![Quiz Page Functionality](assets/readme-files/manual-testing-quiz.gif)
 
-- The responsiveness of the Contact Us page
+- The responsiveness of the Quiz Us page
 
-    ![Responsiveness - Contact Us Page](assets/readme-files/manual-testing-contact-responsive.gif)
+    ![Responsiveness - Quiz Page](assets/readme-files/manual-testing-quiz-responsive.gif)
+
+### End Page
+
+Manual testing was conducted on the following elements of the [End Page](end.html):
+
+- The user can enter their username to save their score in the input area provided. Clicking save will save the score and take the user back to the homepage. The save button is disabled until some text is entered in the username textbox.
+
+    ![Form fields - End Page](assets/readme-files/manual-testing-submit-score-form.gif)
+
+- The responsiveness of the End page
+
+    ![Responsiveness - End Page](assets/readme-files/manual-testing-end-responsive.gif)
 
 ### Error Pages - 404 and 500 Error Pages
 
 - The 404 and 500 error pages have a home button. Clicking on the "home" button will bring the user to the home page [index.html](index.html).
   
     ![Home Button - Error Pages](assets/readme-files/manual-testing-errorpages-home-button.gif)
-  
-- The responsiveness of the error pages.
 
-[Back to top ⇧](#max-rehab-physiotherapy---testing)
+[Back to top ⇧](#wsl-quiz---testing)
 
 ## Validator Testing
 
@@ -206,13 +186,20 @@ The Cascading Stylesheet code was tested using the [W3C CSS Validator](https://j
 ### Javascript Validation
 
 - Script.js - no errors were found when script.js was run through jshint validator.
-  ![Screenshot of jshint validator - script](assets/readme-files/css-val-script-js.png)
+
+![Screenshot of jshint validator - script](assets/readme-files/css-val-script-js.png)
+
 - Game.js - there were three warnings when the game.js file was run through jshint validator. However, the warnings do not impact the quiz logic and was tested extensively to ensure it does not have an impact on the site.
-  ![Screenshot of jshint validator - game](assets/readme-files/css-val-game-js.png)
+
+![Screenshot of jshint validator - game](assets/readme-files/css-val-game-js.png)
+
 - End.js - there was one warning when the end.js file was run through jshint validator. However, PlayAgainSound was called in the html onclick, so it was in fact used.
-  ![Screenshot of jshint validator - end](assets/readme-files/css-val-end-js.png)
+
+![Screenshot of jshint validator - end](assets/readme-files/css-val-end-js.png)
+
 - Leaderboard.js - no errors were found when leaderboard.js was run through jshint validator.
-  ![Screenshot of jshint validator - leaderboard](assets/readme-files/css-val-leaderboard-js.png)
+
+![Screenshot of jshint validator - leaderboard](assets/readme-files/css-val-leaderboard-js.png)
 
 [Back to top ⇧](#wsl-quiz---testing)
 
