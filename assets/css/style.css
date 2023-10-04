@@ -185,14 +185,6 @@ h6 {
     padding: 5px;
 }
 
-#mute-button:hover {
-    background-color: #ee6c4d;
-    cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(213, 95, 66, 0.5);
-    transform: translateY(-0.1rem);
-    transition: transform 150ms;
-}
-
 /* ------------------- */
 /*     Landing Page    */
 /* ------------------- */

@@ -381,6 +381,14 @@ There were responsivity issues regarding the display of all the quiz and hompage
 
 The website is full responsive and all functions are displayed correctly.
 
+The website was tested for responsiveness using [Responsive Design Checker](https://responsivedesignchecker.com). See screenshots below: 
+
+![Screenshot of Responsive Design Checker - large screen](assets/readme-files/responsive-large.png)
+
+![Screenshot of Responsive Design Checker - tablet screen (medium)](assets/readme-files/responsive-medium.png)
+
+![Screenshot of Responsive Design Checker - small device (phone)](assets/readme-files/responsive-small.png)
+
 [Back to top ⇧](#womens-super-league-wsl-quiz)
 
 ## Bugs/Known Issues
