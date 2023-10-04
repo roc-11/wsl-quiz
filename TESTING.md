@@ -15,8 +15,8 @@
   - [Browser Compatibility](#browser-compatibility)
   - [User Testing](#user-testing)
   - [Testing User Stories](#testing-user-stories)
-    - [Current User](#current-user)
-    - [New User](#new-user)
+    - [User Story 1](#user-story-1)
+    - [User Story 2](#user-story-2)
   - [Manual Testing](#manual-testing)
     - [Common Elements Testing](#common-elements-testing)
     - [Home Page](#home-page)
@@ -47,45 +47,20 @@ The project was also user tested by a some class colleagues on the [Slack](https
 
 ## Testing User Stories
 
-### Current User
+### User Story 1
 
-1. As a current user, I want to be able to contact/book a physiotherapy session easily.
-   - The Home Page has a "Book Now" button under the main hero image. Users can simply click this to take them to the contact us form and make a booking. If the site were real, an integrated booking system would also exist.
-   - The user can click on the "Contact Us" link in the main navigation bar to take them to the contact us/booking form.
-   - The user can find contact details in the form of an email address & phone number in the main footer. Both of these are clickable and perform actions.
+User Story 1: User new to the women's football environment and looking to build knowledge and test what I already know about the sport. I want to play a WSL Quiz to learn more about the WSL and enjoy the quiz experience.
+    - The homepage has clear navigation. The user can click on the PLAY button to begin playing the quiz.
+    - The quiz will provide the user with visual feedback on correct answer/incorrect answer and their score.
+    - Upon completion, the user is encouraged to PLAY AGAIN and improve their score, thus learning more about the Women's Super League.
 
-2. As a current user, I want to easily navigate through the site and access the information I require.
-   - The navigation bar is clearly defined and easily navigable for users to find and use.
-   - The footer menu is easy to use with appropriate icons for easy identification.
+### User Story 2
 
-3. As a current user, I want to easily navigate to content I have previously viewed within a small number of steps.
-   - On all site pages there is a naviagtion bar with links to each required page.
-
-### New User
-
-1. As a new user, I want to easily navigate the entire site intuitively.
-   - The navigation bar is clearly defined and easily navigable for users to find and use.
-   - The footer menu is easy to use with appropriate icons for easy identification.
-  
-2. As a new user, I want to easily understand the main purpose of the site.
-
-- The main purpose of the site is clear on the home page (hero image of physio, site slogan).
-- The "how can we help you" section on the homepage clearly defines the services offered to clients.
-
-3. As a new user, I want the information I seek to be easily accessible and relevant.
-
-- The navigation bar is clearly defined and easily navigable for users to find and use.
-- The footer menu is easy to use with appropriate icons for easy identification.
-  
-4. As a new user, I want attractive and relevant visuals and colour schemes that work with the content.
-   - An attractive colour palette was created inpsired by the theme 'Close to Nature' on [Visme.com](https://visme.co/blog/website-color-schemes/).
-   - Relavant images were found using [Pexels](https://www.pexels.com/ "Link to Pexels.com"), [Pixabay](https://pixabay.com/ "Link to Pixabay.com") and [Adobe Stock](https://stock.adobe.com "Link to Adobe Stock").
-   - An attractive, professional logo image was created using [Looka.com](https://looka.com/onboarding "Link to Looka Home Page").
-
-5. As a new user, I want to be able to contact/book a physiotherapy session easily.
-   - The Home Page has a "Book Now" button under the main hero image. Users can simply click this to take them to the contact us form and make a booking. If the site were real, an integrated booking system would also exist.
-   - The user can click on the "Contact Us" link in the main navigation bar to take them to the contact us/booking form.
-   - The user can find contact details in the form of an email address & phone number in the main footer. Both of these are clickable and perform actions.
+User Story 2: User who is a fan of the WSL or women's football in general. I want to test my knowledge but I also want to challenge myself by achieving a high score and earning a place on the leaderboard.
+    - The homepage has clear navigation. The user can click on the PLAY button to begin playing the quiz.
+    - The quiz will provide the user with visual feedback on correct answer/incorrect answer. The user is awarded 10 points for each correct answer and can clearly see their score.
+    - Upon completion, the user can add their score to the leaderboard.
+    - Upon completion, the user is encouraged to PLAY AGAIN and improve their score.
 
 [Back to top ⇧](#wsl-quiz---testing)
 
