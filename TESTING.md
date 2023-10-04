@@ -41,7 +41,7 @@ The website has been tested on a range of browers: Google Chrome, Safari & Micro
 
 The entired project was manually tested by the developer to ensure all it appears correctly on a range of devices/screen size, and to ensure that all links work as expected.
 
-The project was manually tested and reviewed by my mentor Koko during three separate mentor sessions. Her expert opinion was greatly appreciated and small changes were made to the site after each session.
+The project was manually tested and reviewed by my mentor Koko during one mentor sessions. Her opinion was greatly appreciated and changes were made to the site after the session.
 
 The project was also user tested by a some class colleagues on the [Slack](https://slack.com/intl/en-ie/) Code Institute community, and some of my family members. Their helpful advice and suggestions led to a few small UX changes in order to create a better experience.
 

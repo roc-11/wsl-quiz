@@ -89,7 +89,6 @@ The goal of the site is to provide a challenging quiz to entertain online users
 - Navigate easily through the website
 - Take part in the quiz; selecting answers and getting feedback
 - Add high score to the leaderboard (if it qualifies)
-- Control whether sound is on/off
 - Enjoy taking part in an interactive quiz game
 
 [Back to top ⇧](#womens-super-league-wsl-quiz)
@@ -220,9 +219,8 @@ I used Adobe Photoshop to resize the background image for better display on smal
 
 ### Sound Button
 
-- A sound/mute button is included to give the user control over the audio that is included on the site.
-- The button appears as a volume up icon when the sound is on, and a mute button when the sound is off.
-  ![Screenshot of the sound button](assets/readme-files/sound-button.png)
+- A sound icon is included in the nav bar to show the user that there is sound on the application. 
+- This was intended to be a clickable button, in order to give the user control over the audio that is included on the site. Unfortunately, due to time constraints, this functionality had to be removed before the project was completed. 
 
 ### Homepage
 
@@ -315,7 +313,8 @@ The heads up display provides the user with information about their progress dur
 In the future I would like to build upon the quiz functionality. 
 1. Add different levels of difficulty to provide an extra challenge for WSL experts, and easy version for user's who are new to women's football.
 2. Add a timer to the quiz, so that users get a limited time for each question.
-3. 
+3. The volume button to be enabled in order to give the user control over the audio that is included on the site. The user would able to toggle this button to control the mute state of the audio. 
+   
 This was beyond the scope of this project as time was limited, however, it would greatly add to the user experience of the WSL Quiz site.
 
 [Back to top ⇧](#womens-super-league-wsl-qui)
