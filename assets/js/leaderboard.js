@@ -31,3 +31,19 @@ if (highScores.length === 0) {
                     </tr>`;
     }).join("");
 }
+
+// for the mobile navigation bar
+const primaryNav = document.querySelector('.primary-navigation');
+const navToggle = document.querySelector('.mobile-nav-toggle');
+
+navToggle.addEventListener('click', () => {
+    const isVisible = primaryNav.getAttribute('data-visible');
+
+    if (isVisible === 'false') {
+        primaryNav.setAttribute('data-visible', true);
+        navToggle.setAttribute('aria-expanded', true);
+    } else if (isVisible === 'true') {
+        primaryNav.setAttribute('data-visible', false);
+        navToggle.setAttribute('aria-expanded', false);
+    }
+});
