@@ -50,17 +50,17 @@ The project was also user tested by a some class colleagues on the [Slack](https
 ### User Story 1
 
 User Story 1: User new to the women's football environment and looking to build knowledge and test what I already know about the sport. I want to play a WSL Quiz to learn more about the WSL and enjoy the quiz experience.
-    - The homepage has clear navigation. The user can click on the PLAY button to begin playing the quiz.
-    - The quiz will provide the user with visual feedback on correct answer/incorrect answer and their score.
-    - Upon completion, the user is encouraged to PLAY AGAIN and improve their score, thus learning more about the Women's Super League.
+* The homepage has clear navigation. The user can click on the PLAY button to begin playing the quiz.
+* The quiz will provide the user with visual feedback on correct answer/incorrect answer and their score.
+* Upon completion, the user is encouraged to PLAY AGAIN and improve their score, thus learning more about the Women's Super League.
 
 ### User Story 2
 
 User Story 2: User who is a fan of the WSL or women's football in general. I want to test my knowledge but I also want to challenge myself by achieving a high score and earning a place on the leaderboard.
-    - The homepage has clear navigation. The user can click on the PLAY button to begin playing the quiz.
-    - The quiz will provide the user with visual feedback on correct answer/incorrect answer. The user is awarded 10 points for each correct answer and can clearly see their score.
-    - Upon completion, the user can add their score to the leaderboard.
-    - Upon completion, the user is encouraged to PLAY AGAIN and improve their score.
+* The homepage has clear navigation. The user can click on the PLAY button to begin playing the quiz.
+* The quiz will provide the user with visual feedback on correct answer/incorrect answer. The user is awarded 10 points for each correct answer and can clearly see their score.
+* Upon completion, the user can add their score to the leaderboard.
+* Upon completion, the user is encouraged to PLAY AGAIN and improve their score.
 
 [Back to top ⇧](#wsl-quiz---testing)
 
