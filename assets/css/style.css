@@ -150,13 +150,12 @@ h6 {
     background: hsl(218.2 23.4% 9.2% / 0.8);
 }
 
-@supports (backdrop-filter: drop-shadow(4px 4px 10px blue)) {
+@supports (backdrop-filter: blue(1rem)) {
 
     /*not supported on all browsers */
     .primary-navigation {
         background: hsl(0 0% 100% / 0.1);
-        backdrop-filter: drop-shadow(4px 4px 10px blue);
-        ;
+        backdrop-filter: blue(1rem);
     }
 }
 

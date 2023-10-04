@@ -75,6 +75,8 @@ The main requirements of this project are to build an interactive, responsive ap
 
 The aim of the WSL Quiz is mainly to test user’s knowledge of the Women's Super League, in an interactive and fun way. The quiz also serves to let user’s learn more about the WSL by taking part in the quiz. 
 
+The goal of the site is to provide a challenging quiz to entertain online users
+
 ### Application Goals
 
 * To provide user’s with an interactive quiz, testing their knowledge of the Women's Super League.
