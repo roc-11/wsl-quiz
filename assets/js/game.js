@@ -145,8 +145,8 @@ getNewQuestion = () => {
     }
 
     questionCounter++;
-    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
     //update the progress bar (as a %)
+    progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
 
     setTimeout(loadingProgressBar, 800);
 
