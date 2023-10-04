@@ -1,0 +1,5 @@
+{
+    "composer.inlayVersionEnabled": true,
+    "prettier.embeddedLanguageFormatting": "off",
+    "editor.formatOnSave": false
+}
