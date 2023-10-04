@@ -1,13 +1,9 @@
 const highScoresList = document.getElementById('highScoresList');
 //retrieve highscores from local storage (if they exist)
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-//const highScoreContainer = document.getElementById('highScoresContainer');
-let rankingList = highScores.length;
-console.log("highscores = " + highScores);
 
 //for the sound 
 const playQuizSound = new Audio('assets/audio/whistle-sound.mp3');
-const playButton = document.getElementById('play-btn');
 function PlaySound() {
     playQuizSound.play();
     setTimeout(function () {

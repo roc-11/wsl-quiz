@@ -5,8 +5,8 @@ const finalScore = document.getElementById('finalScore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 
 //convert array to JSON (everything in local storage is a string)
+//max high scores = 5
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-const MAX_HIGH_SCORES = 5;
 
 finalScore.innerText = mostRecentScore;
 
@@ -36,13 +36,10 @@ saveHighScore = (e) => {
     localStorage.setItem('highScores', JSON.stringify(highScores));
     //save score and return home once highscore saved
     window.location.assign('index.html');
-
-    console.log(highScores);
 };
 
 //for the sound - play referee whistle when user clicks PLAY AGAIN button
 const playAgainQuizSound = new Audio('assets/audio/whistle-sound.mp3');
-const playAgain = document.getElementById('playAgain');
 function PlayAgainSound() {
     playAgainQuizSound.play();
     setTimeout(function () {

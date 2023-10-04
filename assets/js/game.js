@@ -7,8 +7,6 @@ const choices = Array.from(document.getElementsByClassName('choice-text'));
 //for the HUD
 const progressText = document.getElementById('progress-text');
 const scoreText = document.getElementById('score');
-const progressBarFull = document.getElementById('progress-bar-full');
-
 
 let currentQuestion = {};
 // create a short delay after player answers

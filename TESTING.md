@@ -27,6 +27,7 @@
   - [Validator Testing](#validator-testing)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
+    - [Javascript Validation](#javascript-validation)
   - [Performance](#performance)
   - [Accessibility](#accessibility)
 
@@ -199,6 +200,19 @@ A previous pass through this tool showed multiple errors related to 'trailing sl
 
 The Cascading Stylesheet code was tested using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). No errors were found when the CSS was passed through this tool.
 ![Screenshot of W3C CSS Validation](assets/readme-files/css-validation.png)
+
+[Back to top ⇧](#wsl-quiz---testing)
+
+### Javascript Validation
+
+- Script.js - no errors were found when script.js was run through jshint validator.
+  ![Screenshot of jshint validator - script](assets/readme-files/css-val-script-js.png)
+- Game.js - there were three warnings when the game.js file was run through jshint validator. However, the warnings do not impact the quiz logic and was tested extensively to ensure it does not have an impact on the site.
+  ![Screenshot of jshint validator - game](assets/readme-files/css-val-game-js.png)
+- End.js - there was one warning when the end.js file was run through jshint validator. However, PlayAgainSound was called in the html onclick, so it was in fact used.
+  ![Screenshot of jshint validator - end](assets/readme-files/css-val-end-js.png)
+- Leaderboard.js - no errors were found when leaderboard.js was run through jshint validator.
+  ![Screenshot of jshint validator - leaderboard](assets/readme-files/css-val-leaderboard-js.png)
 
 [Back to top ⇧](#wsl-quiz---testing)
 
